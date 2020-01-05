@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 10, SVG Export Plug-In . SVG Version: 3.0.0 Build 76)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg 
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="125 573" i:rulerOrigin="0 0" i:pageBounds="0 792 612 0"
+	 xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="364" height="354.368" viewBox="0 0 364 354.368" overflow="visible" enable-background="new 0 0 364 354.368"
+	 xml:space="preserve">
+	<style type="text/css">
+	<![CDATA[
+@font-face{font-family:'Times-Roman';src:url("data:;base64,\
+T1RUTwADACAAAQAQQ0ZGIC3TsOIAAAA8AAAC/kdQT1Ovs78WAAADaAAAAFBjbWFw/9gAaQAAAzwA\
+AAAsAQAEAgABAQEMVGltZXMtUm9tYW4AAQEBNPgbAfgYBPw0/gEcDZocCiwFHqAASIKBJf+Lix6g\
+AEiCgSX/i4sMB/cVD4wQ9xkRkvmLEgABAQEvVGltZXMgaXMgYSByZWdpc3RlcmVkIHRyYWRlbWFy\
+ayBvZiBMaW5vdHlwZSBBRwAAAQARBAAGAgABABsArAEHAYICOwJiIKwWHAVLHAV2HPq1B/tM90wV\
++m/+mv5vBw75f/ksFfc2gPcVdewe90hiPeX7BRv7BT0u+01hH3UogPsW+zUa+yuW+w2iMB77Pbbb\
+NvcJG+3OwfawH7D2nfcw918a7PhrFc77Fq37Kfs9GvsZdvsRYvsJHvtxPfsb+wL7VBv7F/sAx/cL\
+Nh8w9xNe90H3bxr3QKn3KMj3EB73Pd33Et/3Phv3LfcLO/s14B8O+PccBUsVHPtMB1iZaqZ9HqZ9\
+voPWiAhv/MipB9yPv5aknQiknZeyxxr6Mgerh6ODnB6cg3qTcBt6dIaCcB9vgXGBc4AIpwf4A/dP\
+BZcGjoiMiIyKCImLh4UaDsiiFfeI95H3OvdO4vcLCOL3C7f3B/cFGu5w1la/Hr5WS6VBGzBBakhS\
+H2xmbVNuP2CUGKz3LcT228cIxtrhqeYb9wXmaETRH9BErjQkGvsBZSFAJh5AJvs4+0n7kPuXCPhf\
+Bsu4k5qlH6WaqLGsxqV/GPsD+6sF/bMGDvhexxXo0avKuB+4yqLP1RrSecpmwR7mTSK5+yeCg4uD\
+G4OKgoqAiomlGPay37fIvQjIvarN3RrUc8JbsR6xWlSeTRtCSnBVUx9sbmpdaE5skhim8Lzc1MgI\
+yNTfqeob8dpvU8MfwlOnSkIaSnRQXVUecWxjaVRly3C+a7JmCNRFrzIgGvsTWfsDKCoeKif7Ilv7\
+TBs5Upekah9qo3qlpxqckZyWmx6blpyTpBuwu3hlyB9lx754tRsO+OkcBJAV/H/9SgX4fwbN+hgV\
+6v4Y92X7Gftl++n7M/fp/NT3GQYO+pQUHAYyFQAAAAAAAQAAAAMAAAAMAAQAIAAAAAQABAABAAAA\
+NP//AAAAMP///9EAAQAAAAAAAQAAAAoAHgAsAAFERkxUAAgABAAAAAD//wABAAAAAWtlcm4ACAAA\
+AAEAAAABAAQAAgAAAAEACAABABIABAAAAAEADAABAAL/tQABAAEAAg==")}
+	]]>
+	</style>
+	<metadata>
+		<variableSets  xmlns="&ns_vars;">
+			<variableSet  varSetName="binding1" locked="none">
+				<variables></variables>
+				<v:sampleDataSets  xmlns="&ns_custom;" xmlns:v="&ns_vars;"></v:sampleDataSets>
+			</variableSet>
+		</variableSets>
+		<sfw  xmlns="&ns_sfw;">
+			<slices></slices>
+			<sliceSourceBounds  y="218.632" x="125" width="364" height="354.368" bottomLeftOrigin="true"></sliceSourceBounds>
+		</sfw>
+	</metadata>
+	<g id="Layer_1" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#4F008000FFFF">
+		<g>
+			<g>
+				<defs>
+					<path id="XMLID_1_" d="M2,2v348h360V2"/>
+				</defs>
+				<clipPath id="XMLID_2_">
+					<use xlink:href="#XMLID_1_" />
+				</clipPath>
+				<g>
+					<defs>
+						<path id="XMLID_3_" d="M0,0v352h364V0"/>
+					</defs>
+					<clipPath id="XMLID_4_" clip-path="url(#XMLID_2_)">
+						<use xlink:href="#XMLID_3_" />
+					</clipPath>
+					<g>
+						<defs>
+							<path id="XMLID_5_" d="M25,7v328h329V7"/>
+						</defs>
+						<clipPath id="XMLID_6_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_5_" />
+						</clipPath>
+						
+							<path i:knockout="Off" clip-path="url(#XMLID_6_)" fill="none" stroke="#3D3D96" stroke-width="1.637" stroke-linecap="square" stroke-miterlimit="3.25" d="
+							M134.179,88.244l0.002,0.014l0.099-1.134l1.623-1.045l-1.415-1.365l-2.406,1.613l0.016,0.495l6.383-6.411l0.135-0.438
+							l0.081,2.634l-0.142-0.483l0.926-0.461l-0.221-1.135l-0.739-1.688l2.25,7.746l-1.427-9.274l-0.001-0.009l0.104-0.072
+							l0.95,0.055l1.409,0.306l0.947-1.58l0.144,0.033l-0.008-0.021l-1.827-4.737l-0.59,0.061l0.186,0.215l-0.544,0.523l1.148-0.417
+							l0.7-0.136l-0.464,1.12l-2.487-3.204l-0.533-0.512l-0.038-0.49l2.118,3.028l-0.005,0.183l0.055,0.372l0.376-0.398l-0.205-0.52
+							l-0.005,0.002l0.109-0.056l0.357-0.894l0.685,0.966l-0.119,0.628l-0.388-0.559l-8.987-6.188l-1.566-1.697l-0.037-0.071
+							l0.331-0.136l-0.845-2.678l1.023,1.718l1.737-0.68l-0.012,0.062l0.717,0.035l0.333-0.671l-0.19-0.021l-20.98,57.97
+							l-1.082,1.222l0.522,0.393l-0.085-0.055l0.046-0.344l-0.431,0.324l-0.518,1.013l0.579,0.063l0.713-1.131l0.206,0.044
+							l-0.271-0.045l-0.155,0.319l0.309,0.433l0.136-0.166l0.271,0.06l0.381,1.483l-0.759-0.325l0.124-1.105l-0.071,0.131
+							l0.467,0.002l4.503,3.347l0.092-0.369l-0.381,0.64l-0.89,0.402l0.012-0.009l-1.782,1.629l-0.047,0.094l-3.002,5.418
+							l0.091-3.493l-0.346-0.676l-0.464,0.648l-0.253,0.082l-0.238,1.396l0.427,0.845l-0.799-4.434l0.286,1.099l-0.544,0.422
+							l-2.14-1.078l-0.263,0.072l-0.007-0.62l-0.532-0.19l-0.275,0.944l-0.103-0.024l0.498,0.23l-0.941,1.63l0.476,0.276
+							l-18.758-17.584l-0.071,0.025l-0.955-1.101l-0.929,0.053l0.233-0.609l0.235,0.413l1.956,0.484l0.268,0.359l-0.07,0.313
+							l0.122-0.137l0.636,0.028l0.105,0.188l0.214-0.237l-0.003-0.017l-0.263-0.424l0.181-0.23l-1.737-1.519l-0.045-2.814
+							l0.496,0.947l1.193,0.529l0.273-0.521l-0.267-0.215l0.411-0.331l0.002,0.077l2.134,1.646l-0.09,0.632l-0.193-0.014
+							l-0.465,8.853l0.128-0.062l0.551-0.171l1.996,0.625l-0.686-0.603l-0.771-1.323l0.005-0.063l0.111-0.044l4.493-0.583
+							l-4.678-7.174l-0.356-0.466l0.025-0.11l0.884-2.033l6.187-0.516l0.055,0.92l0.113-0.111l0.147,3.229l0.275,0.254l-0.031,0.106
+							l1.142-7.832l0.022,1.291l0.3,0.441l-0.011,0.024l-0.085-0.25l-0.836,1.821l-5.01-0.299l-0.095-0.535l-0.357-0.275
+							l-0.026-0.701l-0.005-0.103l0.081-1.488l0.323,0.477l-0.353-0.23l0.287,0.407l-0.162,0.067l0.214,0.339l-0.601,0.123
+							l0.02-0.213l0.266-1.059l0.107-1.036l-2.29,0.504l-0.071,0.007l0.833,0.299l0.651-0.211l-0.351,0.308l0.55,0.73l-1.93-5.329
+							l0.031-0.064l0.578,0.297l0.425-0.973l0.203,0.258l0.608,4.535l0.04,0.097l-0.119-0.073l-0.466-0.316l0.21,0.21l-0.31,0.052
+							l0.432,1.46l0.281,0.44l0.472,3.031l-0.2-1.203l0.103,0.798l-0.317-0.121l0.746,1.51l-1.904,0.919l0.51,0.664l-3.282-0.104
+							l0.182,0.152l-0.286-0.915l-0.096-0.106l-3.788-0.371l1.404,1.175l0.026,0.035l-0.015-0.08l-6.567-0.166l0.294-0.8
+							l0.211-0.473l0.126,0.732l0.704-0.189l-0.759,0.251l0.096-0.066l0.283,0.754l3.108,1.923l-0.146,0.388l-0.151-0.111
+							l0.688,1.525l1.044,1.464l-1.251-5.141l-0.086,0.735l-0.248,0.101l-0.217-0.023l-0.14-0.16l-0.965-0.574l-0.185,0.024
+							l-0.074-1.152l-0.225-0.778l1.001-1.273l-0.145,0.574l0.366-1.36l3.125,8.848l-0.09,0.312l0.556,0.304l0.394-0.93l-0.512-0.18
+							l0.218-0.429l-0.556,0.17l0.523-5.967l-0.065-0.438l1.567-2.207l-0.443-0.823l0.044,1.992l0.021,0.25l-0.265-0.36
+							l-1.691,0.563l-0.011,1.492l2.865-0.065l-0.282,0.105l0.101,0.081l-9.787-1.183l-0.206-0.232l-0.091-4.586l-1.103-1.881
+							l0.686,0.153l0.527-0.091l-1.694,0.482l0.649,0.374l0.253-0.896l0.354-0.546l-3.785,6.367l0.275,1.357l0.452-0.112
+							l-2.254,1.828l-0.159-0.079l0.118-0.143l-1.364,0.357l-0.465-0.349l0.535,2.468l0.12,0.033l-0.866,3.2l-3.483,8.063
+							l6.451,3.793l-1.251,3.854l0.128-0.103l0.363-0.516l-6.563-2.352l0.175-0.447l-1.067,1.255l1.135-3.232l-0.13,0.763
+							l-0.272-0.314l-0.882-0.841l0.035-0.104l12.173,40.567L73.375,163l-0.035,0.586l0.013-0.833l0.573,0.105l-0.212,0.187
+							l-0.297-0.296l-1.099-5.255l0.096-0.089l-3.389,0.578l-0.186-0.537l-0.557-0.383l6.038,0.411l-0.03-0.206l-0.553,0.074
+							l0.463,0.44l0.285-0.109l0.132-0.418l-0.798-0.039l-8.756-6.249l-0.26,1.64l0.439-0.479l-0.041,1.172l0.088-0.499l0.121-0.311
+							l-0.208-0.186l1.934-0.688l0.473-2.457l-0.066-0.243l-0.032-0.026l2.247,2.71l-0.378,1.289l-0.323-0.021l3.005,4.331
+							l-0.559,0.164l170.778,39.104l0.513,0.854l0.276,1.094l-0.098,0.062l2.172-1.592l-0.515,0.423l-0.259,0.477l-0.028-0.492
+							l0.29,1.072l0.162,0.009l-0.174,0.312l0.074,0.884l0.082-0.022l0.172-0.732l-0.621-1.282l0.396,1.605l3.652-0.522
+							l-0.595-0.118l0.247-0.188l0.3,0.134l0.207,0.561l-0.271-0.287l0.158-0.688l-0.095-0.235l-0.683,1.041l0.047,0.127
+							l0.007,0.007l-0.124-0.64l-1,0.62l0.635,0.252l-0.473-0.305l0.051-0.027l0.008,0.031l-0.047,0.006l-0.014-0.681l-0.262-0.117
+							l0.012-1.389l0.375-0.089l-0.986-4.856l-0.547-0.693l-0.646,0.798l-0.142-0.414l-2.011,0.211l-0.424-0.365l-0.213-0.168
+							l0.008,0.1l-2.725-1.861l49.688,26.28l-1.046,0.134l0.082,1.771l-0.049,1.155l-0.291,0.193l-0.144-0.026l-0.036-0.63
+							l-0.363,2.15l-3.99-3.268l0.062-0.335l0.009-0.021l3.154,2.649l-0.042,0.217l0.29-0.019l-0.158-0.691l-0.648-1.068
+							l-0.039-0.025l0.138-0.464l-0.493-0.01l-0.094-0.09l0.174-0.21l0.007,0.009l-0.065,0.089l-0.067-0.214l0.937,3.628
+							l0.194,0.108l0.044-2.2l-0.402-0.986l-0.711,0.306l0.476,0.386l0.03-0.122l-0.084-0.296l-0.187-0.059l-0.083,0.636
+							l8.465,5.754l9.664-6.144l-0.338,0.173l-0.291-1.085l-0.201-0.091l0.021-0.022l1.05-0.583l-1.682-3.921l0.557-0.372
+							l-0.21-0.034l0.298-0.192l1.616,3.015l0.349-0.062L295,234.208l0.016,0.02l-0.188-0.445l-0.103-0.363l0.01,0.028l-0.594,0.424
+							l0.025,0.688l0.029-0.279l0.601,0.351l0.542-0.586l-1.047,0.361l-0.426-0.892l1.176,0.868l-0.105-0.604l0.354,0.629
+							l-0.193-0.087l7.569-7.483l1.079,2.153l0.09-0.826l-0.493,0.474l-0.138-0.373l-0.127,0.552l0.682,0.118l0.02,0.028
+							l-0.799-0.207l-0.16,0.107l-0.08-0.03l0.085-0.286l0.118,0.007l-0.375-0.598l1.49-1.261l0.086,0.699l0.104-0.067l-0.09-0.186
+							l-0.141-0.521l-0.801-1.191v0.1l0.028-0.082l-0.001-0.01l-0.611-0.308l0.162,0.223l1.245,22.425l0.046,0.052l0.229,0.572
+							l0.979,2.603l0.631-0.374l-0.873,0.029l-0.698-6.678l-39.431-31.175l-0.403,43.888l-14.602,16.623l-0.471-0.611l-0.039-0.58
+							l-3.434,0.815l-0.027,0.041v-0.014l0.136-0.076l-0.164-1.434l0.009-0.551l0.035-0.016l-0.542,0.495l0.011-0.185l-1.474-2.656
+							l-0.123,0.153l-2.81,0.163l0.02,0.161l-0.309,8.606l-0.064-1.188l0.114-0.468l-0.112-0.304l-0.289-1.027l-0.561-1.018
+							l-0.014-0.433l-0.02-0.09l0.049,0.129l0.163,0.756l2.479-2.158l0.39,0.426l10.188,23.308l-3.697-4.687l0.472-0.149
+							l-0.091,0.18l0.283-0.255l-0.385-0.021l-0.289-0.642l0.08,0.287l-0.134-0.021l0.509-1.17l0.284-0.088l0.001,0.02l0.014,0.351
+							l0.621,0.413l-0.093-0.265l-1.944-0.298l-0.01-0.782l-0.021,0.021l0.021,0.038l-0.014-0.006l-0.207,0.419l-2.568-2.353
+							l1.168-0.697l2.36-1.037l0.358,0.213l0.341,0.209l-0.369-2.814l0.037-0.31l-0.205,0.166l-0.017,0.212l1.276-1.332
+							l-0.095-0.109l-0.848-0.791l0.039-0.936l-0.328-0.09l-1.211,0.61l0.035,1.058l-0.343-1.058l1.282-0.026l-0.072-0.18
+							l-7.484,1.569l-1.228,1.443l1.246,0.627l0.006-0.122l-0.774-2.401l0.354-0.331l-0.235-0.149l-0.127-0.128l-0.043,0.199
+							l-0.007,0.004l0.142,0.007l-1.92,8.073l0.977-3.38l0.031,0.241l0.511-0.171l-0.031-0.324l-0.022,0.823l-0.922-1.333
+							l-0.127,0.166l3.804,0.418l-6.329-8.352l-5.623-0.996l0.126-2.962l0.501-0.047l0.236,0.373l-1.387,0.956l-0.47,2.742
+							l-0.028-0.329l-0.34,0.006l1.002-0.042l-1.785-2.339l-0.445,0.185l2.266-0.151l0.02,0.084l0.371,0.312l-3.155-2.237
+							l1.069-0.544l0.855-0.438l0.469,0.778l-0.98,0.338l-0.079-0.021l-5.081-5.938l-0.02,0.041l-0.006-2.654l0.09-0.498
+							l-0.305,0.344l-0.521-4.12l0.697-0.951l-0.193-0.378l-0.178,0.116l1.53,0.198l-1.975-0.597l1.227-7.533l-0.561,1.655
+							l-0.198,0.265l0.895-4.501l1.242-1.326l-0.009-0.119l-0.051,0.09l0.096-0.134l-5.44-16.453l-1.129-0.339l-0.477-0.051
+							l0.137-0.569l0.284,0.096l-0.276,0.003l0.49-0.004l-0.445,3.644l5.486,15.673l0.008-0.124l0.573,1.838l0.581-0.03
+							l-0.111,0.223l0.002-0.012l0.021-0.211l2.438,1.112l0.295-0.269l0.418,0.321l-0.37-0.032l-0.201,0.021l-0.112,2.005
+							l-1.934-0.556v-0.229l0.148,0.654l2.269,1.687l-0.034-0.125l-0.786,0.854l-0.584,1.737l0.238-0.748l-0.144,0.153l0.006-0.451
+							l-1.227,0.808l-0.604-0.208l0.125,0.113l-0.42,0.473l-0.02,1.488l-0.002-0.376l-0.014,0.065l0.645-1.9l-0.248-0.416
+							l-0.08-0.038l0.264,5.365l1.279-2.199l-0.13,0.536l-1.274-4.807l-0.271-0.192l1.307-3.543l0.064,0.018l-0.311-3.454
+							l-0.571-0.091l1.062,0.637l-0.072,0.082l-0.146-0.085l-1.144-0.678l0.021-0.008l3.402,3.098l0.09-0.02l-0.009-0.101
+							l-0.212-0.39l0.295,0.338l-0.365,0.748l1.073-0.541l0.103-0.223l-0.496-0.697l-0.916-1.338l0.42-0.776l0.162,0.04l0.184-0.124
+							l0.021,0.014l-0.491,2.909l-0.203,0.134l-0.293-0.054l9.819-29.684l-0.146-0.713l-0.758,0.477l0.602-0.361l-0.125-0.39
+							l-0.119-0.245l0.405,2.025l0.274,0.421l-0.184,1.019l2.508-2.787l-0.098-0.126l-0.014-0.311l0.166,0.688l-1.431-0.448
+							l-0.019,0.015l0.607-0.444l0.627,0.32l0.119-0.051l0.069-1.339l-0.892-0.501l-0.588-0.958l0.881-1.511l0.094-0.771
+							l0.078-0.848l0.049-0.031l-0.611,0.419l7.316,1.417l0.193-0.377l0.082,1.928l-0.107,0.037l-16.584-7.439l0.066-0.12
+							l-0.019-0.026l-0.13-0.095l0.457,0.343l0.021-0.141l9.824-16.113l-1.842,5.12l-0.878,1.321l-0.463,0.199l0.658,1.325
+							l0.793-1.069l0.557-0.089l2,19.74l0.298,1.234l1.573-2.009l1.535,1.479l-0.064-0.022l0.357,0.345l0.264,0.54l-0.27,1.252
+							l-0.035,0.837l0.006-0.015l-1.488-1.525l0.1,0.704l-0.125,0.019l-0.537-0.019l-0.937,1.542l1.785-1.766l-0.027-0.676
+							l-0.211,0.105l0.646-0.163l0.01-0.11l0.136,0.297l-0.411-0.86l-0.207,0.207l0.078-0.065l1.479,0.294l-0.082-0.013l-0.18,0.336
+							l0.061-0.836l-0.359,1.158l0.117-0.052l-0.6,0.82l0.648,3.118l-0.006-0.253l0.241-0.709l1.516-3.297l0.112-0.265l-0.008-0.031
+							l-3.518,7.791l0.367,0.091l-1.013,0.377l-0.185-0.086l-0.164-0.302l0.002-0.005l0.025,0.537l-0.309,0.161l-2.508-3.263
+							l-0.545,0.434l-0.389-0.73l0.391-0.169l1.908-7.229l0.26,0.487l-0.002,0.013l0.133,0.558l-0.293,0.259l-0.904,0.822
+							l0.113-0.198l-0.035-0.709l0.142-0.389l0.255-0.724l-0.013,0.792l-0.201-0.578l41.654-19.857l1.032-0.75l0.214,0.9
+							l-2.165-5.461l-0.051-0.095l-0.493-1.189l0.102,0.067l0.519,2.737l0.27,0.255l1.012,1.404l1.416-3.195l0.385,0.135
+							l0.019,0.144l0.321-0.234l-0.148,0.124l0.051,0.108l-0.349,0.183l-0.135-0.466l0.378,0.007l-0.502-0.252l-0.238,0.677
+							l0.096-0.828l3.572-13.87l-0.505,0.476l1.047-0.856l0.261,0.283l-3.14-3.062l-0.137,0.244l0.702,0.165l0.625-0.052
+							l0.097,0.024l-0.562-0.302l1.338,0.82l-0.465,0.871l-0.931-0.746l0.425,1.443l0.738,0.056l-0.318-0.157l-0.175-0.094
+							l4.403,1.667l-3.148-3.125l1.899-0.75l-1.226-0.947l1.742-0.067l-1.354-2.674l-0.109,0.937l-0.196,1.244l-0.039-0.049
+							l-1.28,1.961l-0.673,1.01l-0.047-0.164l0.186,0.1l0.736-0.211l-2.36,2.358l-0.198-0.373l-0.08,0.019l-0.183-0.14l0.313-1.249
+							l-0.053-0.034l0.034,0.022l-0.08,0.765l0.271,0.724l-0.531,0.088l0.115,0.117l1.156,0.73l0.072,0.318l0.057-0.359l0.287,0.113
+							l-6.899-0.479l0.225-0.024l-9.079-13.803l2.223,1.396l0.049-0.181l0.164-0.079l2.869,0.552l-0.154-0.455l-0.153,0.551
+							l0.328,0.121l-0.81,0.508l0.22-0.037l-1.979,0.767l0.428-0.715l-0.055-0.388l-1.849-4.17l-0.586,0.189l-2.437-1.968l5.444,2.7
+							l-0.013-0.01l0.01,0.013l-7.113,1.611l-0.605-0.122l0.16-0.079l-0.047,0.018l0.086-0.085l0.884,31.817l-0.03,0.878
+							l-0.613,0.43l-0.42-0.741l0.047,0.143l0.02,0.097l-1.928-3.56l-3.412,0.226l0.728,0.633l-0.103,0.139l0.098-0.05l-0.102-0.062
+							l-0.057-0.259l-0.029-0.148l1.086-0.64l-0.045,0.179l0.965,2.966l0.002,0.002l3.929-2.87l-0.296,0.467l0.184-0.005
+							l14.897-9.438l0.304,0.277l1.12,0.409l0.371-1.827l-1.332,3.647l0.224-0.052l0.178-1.4l0.227-0.196l-0.004,2.417l-1.838,4.272
+							l-0.116,0.085l0.197,0.436l0.116-0.298l1.787-1.801l0.182-0.27l3.603-8.045l0.007-0.119l0.023-0.053l0.006-0.02l-0.029-0.118
+							l0.231,1.394l0.032,0.157l-0.004,0.124l0.162-0.315l-0.174,0.977l0.369,3.563l3.416-2.167l-1.085,0.213l-1.313,0.491
+							l0.265,0.346l-0.083-0.08l-0.008,0.779l0.088-0.002l2.131,3.736l-12.441-21.882l0.014,0.153l-1.182-0.333l0.07,0.342
+							l-0.062-0.188l-0.004,0.363l0.279,0.624l-1.367-1.556l0.84,0.682l-0.012,0.812l-1.175-0.339l0.068,0.07l-0.673,0.997
+							l0.387,0.738l-0.008-0.044l0.306-0.101l-0.048,0.166l0.064,0.221l0.39-0.795l-0.288-0.334l-0.098,0.472l0.041-0.136
+							l-0.147-0.394l0.252-6.255l0.179-0.605l-0.242-0.35l-0.338,0.626l-12.732-25.748l0.747-0.458l-0.071,0.915l0.049,0.282
+							l0.034,0.279l-0.092-0.287l0.5-0.152l-0.074-0.53l-0.007,1.652l0.002-0.546l0.477,0.42l-0.117-0.119l-0.67,0.639l-0.912,2.434
+							l-0.297-4.256l0.123,1.162l1.256-0.475l0.164,0.103l0.018,0.102l0.175-1.076l-0.717-0.548l0.196-0.188l0.037-0.028
+							l-1.125,1.171l-1.014,1.723l0.876-1.578l-0.05-0.015l0.006-0.218l-6.555,0.385l1.143,0.102l-0.092,0.075l-0.402,0.103
+							l-2.475-0.698l-1.165,0.156l-1.017-0.294l-0.729-0.465l3.171-0.614l0.721-0.212l-0.851,2.061l0.199,0.102l0.005,0.016
+							l0.381-0.217l0.153-0.338l0.897-7.557l-0.42-0.16l-0.16-0.135l0.719-2.097l0.059-0.005l-0.175-0.714l-0.03-0.409l0.25,0.254
+							l0.376,0.31l-0.516,1.046l-0.362,0.254l-0.178-0.154l-0.186,0.035l0.424-0.184l0.466-4.479l-0.019-0.492l0.225,0.141
+							l-0.256-0.261"/>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="3.25" d="
+						M353.5,335H26"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="3.25" d="
+						M26,335V7.5"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="3.25" d="
+						M26,7.5h327.5"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="3.25" d="
+						M353.5,7.5V335"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,335v-4"/>
+					<g>
+						<defs>
+							<path id="XMLID_7_" d="M14.5,337v13h23v-13"/>
+						</defs>
+						<clipPath id="XMLID_8_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_7_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_9_" d="M13.5,336v15h25v-15"/>
+							</defs>
+							<clipPath id="XMLID_10_" clip-path="url(#XMLID_8_)">
+								<use xlink:href="#XMLID_9_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M15.5,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_10_)" font-family="'Mathematica1'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>-</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_12_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_10_)">
+										<text id="XMLID_12_" transform="matrix(1 0 0 1 15.5 347)"><tspan x="0" y="0" font-family="'Mathematica1'" font-size="10.0006">-</tspan></text>
+									</g>
+								</switch>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M21.5,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_10_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>200</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_14_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_10_)">
+										<text id="XMLID_14_" transform="matrix(1 0 0 1 21.5 347)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">200</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M36.917,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M47.833,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M58.75,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M69.667,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M80.583,335v-4"/>
+					<g>
+						<defs>
+							<path id="XMLID_11_" d="M69.083,337v13h23v-13"/>
+						</defs>
+						<clipPath id="XMLID_16_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_11_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_13_" d="M68.083,336v15h25v-15"/>
+							</defs>
+							<clipPath id="XMLID_18_" clip-path="url(#XMLID_16_)">
+								<use xlink:href="#XMLID_13_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M70.083,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_18_)" font-family="'Mathematica1'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>-</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_20_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_18_)">
+										<text id="XMLID_20_" transform="matrix(1 0 0 1 70.083 347)"><tspan x="0" y="0" font-family="'Mathematica1'" font-size="10.0006">-</tspan></text>
+									</g>
+								</switch>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M76.083,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_18_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>100</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_22_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_18_)">
+										<text id="XMLID_22_" transform="matrix(1 0 0 1 76.083 347)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">100</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M91.5,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M102.417,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M113.333,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M124.25,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M135.167,335v-4"/>
+					<g>
+						<defs>
+							<path id="XMLID_15_" d="M131.667,337v13h7v-13"/>
+						</defs>
+						<clipPath id="XMLID_24_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_15_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_17_" d="M130.667,336v15h9v-15"/>
+							</defs>
+							<clipPath id="XMLID_26_" clip-path="url(#XMLID_24_)">
+								<use xlink:href="#XMLID_17_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M132.667,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_26_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>0</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_28_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_26_)">
+										<text id="XMLID_28_" transform="matrix(1 0 0 1 132.667 347)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">0</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M146.083,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M157,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M167.917,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M178.833,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M189.75,335v-4"/>
+					<g>
+						<defs>
+							<path id="XMLID_19_" d="M181.25,337v13h17v-13"/>
+						</defs>
+						<clipPath id="XMLID_30_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_19_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_21_" d="M180.25,336v15h19v-15"/>
+							</defs>
+							<clipPath id="XMLID_32_" clip-path="url(#XMLID_30_)">
+								<use xlink:href="#XMLID_21_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M182.25,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_32_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>100</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_34_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_32_)">
+										<text id="XMLID_34_" transform="matrix(1 0 0 1 182.25 347)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">100</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M200.667,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M211.583,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M222.5,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M233.417,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M244.333,335v-4"/>
+					<g>
+						<defs>
+							<path id="XMLID_23_" d="M235.833,337v13h17v-13"/>
+						</defs>
+						<clipPath id="XMLID_36_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_23_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_25_" d="M234.833,336v15h19v-15"/>
+							</defs>
+							<clipPath id="XMLID_38_" clip-path="url(#XMLID_36_)">
+								<use xlink:href="#XMLID_25_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M236.833,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_38_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>200</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_40_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_38_)">
+										<text id="XMLID_40_" transform="matrix(1 0 0 1 236.833 347)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">200</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M255.25,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M266.167,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M277.083,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M288,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M298.917,335v-4"/>
+					<g>
+						<defs>
+							<path id="XMLID_27_" d="M290.417,337v13h17v-13"/>
+						</defs>
+						<clipPath id="XMLID_42_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_27_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_29_" d="M289.417,336v15h19v-15"/>
+							</defs>
+							<clipPath id="XMLID_44_" clip-path="url(#XMLID_42_)">
+								<use xlink:href="#XMLID_29_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M291.417,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_44_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>300</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_46_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_44_)">
+										<text id="XMLID_46_" transform="matrix(1 0 0 1 291.417 347)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">300</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M309.833,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M320.75,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M331.667,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M342.583,335v-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,335v-4"/>
+					<g>
+						<defs>
+							<path id="XMLID_31_" d="M345,337v13h17v-13"/>
+						</defs>
+						<clipPath id="XMLID_48_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_31_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_33_" d="M344,336v15h19v-15"/>
+							</defs>
+							<clipPath id="XMLID_50_" clip-path="url(#XMLID_48_)">
+								<use xlink:href="#XMLID_33_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M346,347"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_50_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>400</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_52_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_50_)">
+										<text id="XMLID_52_" transform="matrix(1 0 0 1 346 347)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">400</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,335h4"/>
+					<g>
+						<defs>
+							<path id="XMLID_35_" d="M1,328.5v13h23v-13"/>
+						</defs>
+						<clipPath id="XMLID_54_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_35_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_37_" d="M0,327.5v15h25v-15"/>
+							</defs>
+							<clipPath id="XMLID_55_" clip-path="url(#XMLID_54_)">
+								<use xlink:href="#XMLID_37_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M2,338.5"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_55_)" font-family="'Mathematica1'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>-</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_56_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_55_)">
+										<text id="XMLID_56_" transform="matrix(1 0 0 1 2 338.5)"><tspan x="0" y="0" font-family="'Mathematica1'" font-size="10.0006">-</tspan></text>
+									</g>
+								</switch>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M8,338.5"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_55_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>300</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_57_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_55_)">
+										<text id="XMLID_57_" transform="matrix(1 0 0 1 8 338.5)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">300</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,318.625h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,302.25h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,285.875h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,269.5h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,253.125h4"/>
+					<g>
+						<defs>
+							<path id="XMLID_39_" d="M1,246.625v13h23v-13"/>
+						</defs>
+						<clipPath id="XMLID_58_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_39_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_41_" d="M0,245.625v15h25v-15"/>
+							</defs>
+							<clipPath id="XMLID_59_" clip-path="url(#XMLID_58_)">
+								<use xlink:href="#XMLID_41_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M2,256.625"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_59_)" font-family="'Mathematica1'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>-</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_60_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_59_)">
+										<text id="XMLID_60_" transform="matrix(1 0 0 1 2 256.625)"><tspan x="0" y="0" font-family="'Mathematica1'" font-size="10.0006">-</tspan></text>
+									</g>
+								</switch>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M8,256.625"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_59_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>200</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_61_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_59_)">
+										<text id="XMLID_61_" transform="matrix(1 0 0 1 8 256.625)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">200</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,236.75h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,220.375h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,204h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,187.625h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,171.25h4"/>
+					<g>
+						<defs>
+							<path id="XMLID_43_" d="M1,164.75v13h23v-13"/>
+						</defs>
+						<clipPath id="XMLID_62_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_43_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_45_" d="M0,163.75v15h25v-15"/>
+							</defs>
+							<clipPath id="XMLID_63_" clip-path="url(#XMLID_62_)">
+								<use xlink:href="#XMLID_45_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M2,174.75"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_63_)" font-family="'Mathematica1'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>-</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_64_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_63_)">
+										<text id="XMLID_64_" transform="matrix(1 0 0 1 2 174.75)"><tspan x="0" y="0" font-family="'Mathematica1'" font-size="10.0006">-</tspan></text>
+									</g>
+								</switch>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M8,174.75"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_63_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>100</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_65_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_63_)">
+										<text id="XMLID_65_" transform="matrix(1 0 0 1 8 174.75)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">100</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,154.875h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,138.5h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,122.125h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,105.75h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,89.375h4"/>
+					<g>
+						<defs>
+							<path id="XMLID_47_" d="M17,82.875v13h7v-13"/>
+						</defs>
+						<clipPath id="XMLID_66_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_47_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_49_" d="M16,81.875v15h9v-15"/>
+							</defs>
+							<clipPath id="XMLID_67_" clip-path="url(#XMLID_66_)">
+								<use xlink:href="#XMLID_49_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M18,92.875"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_67_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>0</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_68_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_67_)">
+										<text id="XMLID_68_" transform="matrix(1 0 0 1 18 92.875)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">0</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,73h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,56.625h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,40.25h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,23.875h2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,7.5h4"/>
+					<g>
+						<defs>
+							<path id="XMLID_51_" d="M7,1v13h17V1"/>
+						</defs>
+						<clipPath id="XMLID_69_" clip-path="url(#XMLID_4_)">
+							<use xlink:href="#XMLID_51_" />
+						</clipPath>
+						<g>
+							<defs>
+								<path id="XMLID_53_" d="M6,0v15h19V0"/>
+							</defs>
+							<clipPath id="XMLID_70_" clip-path="url(#XMLID_69_)">
+								<use xlink:href="#XMLID_53_" />
+							</clipPath>
+							<g>
+								<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+									<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+										<flowDef  xmlns="&ns_flows;">
+											<region>
+												<path d="M8,11"/>
+											</region>
+											<flow  xmlns="&ns_flows;"  clip-path="url(#XMLID_70_)" font-family="'Times-Roman'" font-size="10.0006" a:adobe-justification-word-spacing-max="1"  a:adobe-justification-letter-spacing-max="1" kerning="0em">
+												<p><span>100</span></p>
+											</flow>
+										</flowDef>
+										<x:targetRef  xlink:href="#XMLID_71_" />
+									</foreignObject>
+									<g clip-path="url(#XMLID_70_)">
+										<text id="XMLID_71_" transform="matrix(1 0 0 1 8 11)"><tspan x="0" y="0" font-family="'Times-Roman'" font-size="10.0006">100</tspan></text>
+									</g>
+								</switch>
+							</g>
+						</g>
+					</g>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M26,7.5v4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M36.917,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M47.833,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M58.75,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M69.667,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M80.583,7.5v4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M91.5,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M102.417,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M113.333,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M124.25,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M135.167,7.5v4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M146.083,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M157,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M167.917,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M178.833,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M189.75,7.5v4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M200.667,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M211.583,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M222.5,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M233.417,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M244.333,7.5v4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M255.25,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M266.167,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M277.083,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M288,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M298.917,7.5v4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M309.833,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M320.75,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M331.667,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M342.583,7.5v2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,7.5v4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,335h-4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,318.625h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,302.25h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,285.875h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,269.5h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,253.125h-4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,236.75h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,220.375h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,204h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,187.625h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,171.25h-4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,154.875h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,138.5h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,122.125h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,105.75h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,89.375h-4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,73h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,56.625h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,40.25h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,23.875h-2.4"/>
+					
+						<path i:knockout="Off" clip-path="url(#XMLID_4_)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="3.25" d="
+						M353.5,7.5h-4"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

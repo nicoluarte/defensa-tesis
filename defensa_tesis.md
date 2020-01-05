@@ -6,7 +6,6 @@ output:
     beamer_presentation:
 theme: "Boadilla"
 ---
-# Intro
 ## Introducción
 
 'When searching for items in memory, people explore internal representations in
@@ -61,11 +60,14 @@ necesario aclarar las condiciones bajo las cuales esto sería cierto.
   sujetos que nombren la mayor cantidad de animales en un tiempo determinado.
   Asumiendo categorías de los animales, se observa que los sujetos producen mas
   animales por segundo dentro de la categoría, y luego, al cambiar de categoría,
-  se produce un retraso en esta producción.
+  se produce un retraso en esta producción. La distribución de los tiempos entre
+  producción de animales obedecen patrones tipo 'Levy'
+  
+## Búsqueda interna y externa
+
+![Búsqueda interna y externa](/home/nicoluarte/defensa-tesis/images/semantic.png){ width=400px }
   
 ## Estrategias de búsqueda basadas en reglas
-- ¿De qué tipo son las posibles estrategias de búsqueda
-### Comportamiento basado en reglas
 Se desprende la teoría de forrajeo óptimo 'optimal foraging theory' [@bartumeusOptimalSearchBehavior2009a] y considera 4 problemas fundamentales que enfrenta el agente en búsqueda de 'alimento': 
 
 1. qué comer
@@ -77,7 +79,7 @@ La teoría supone que el agente, en estos 4 aspectos, toma la decisión para opt
 
 ## Marginal value theorem
 
-![Tiempo óptimo de salida](/home/nicoluarte/defensa_tesis/images/mvt.png){ width=250px }
+![Tiempo óptimo de salida](/home/nicoluarte/defensa-tesis/images/mvt.png){ width=250px }
 
 ## Marginal value theorem
 
@@ -89,27 +91,149 @@ Determinación del tiempo en la parcela
 - $S_{a}$ $\leftarrow$ nivel de recursos a través de las parcelas
 - $K$ $\leftarrow$ constante que representa que tan pronunciada es la pendiente de consumo al tiempo 0 en cada parcela
 
-![$h_{i}* = S_{i}\sqrt{\frac{t_{s}}{S_{a} K}}$](/home/nicoluarte/defensa_tesis/images/mvt_change.jpg){ width=170px }
+![$h_{i}* = S_{i}\sqrt{\frac{t_{s}}{S_{a} K}}$](/home/nicoluarte/defensa-tesis/images/mvt_change.jpg){ width=170px }
 
 
 ## Estrategias de búsqueda basadas en 'random walks'
-- Levy walks
-- Estrategias evolutivas [@radicchiEvolutionOptimalLevyflight2012] 
-- Estrategias emergentes
+
+Las principales dificultades con los modelos basados en reglas son principalmente las siguientes:
+
+1. Asumen pasividad del recurso a consumir
+2. Asumen un conocimiento del agente bastante elevado y de largo alcance
+3. Evidencia empirica contra las predecciones del modelo
+[@jesmerStatedependentBehaviorAlters2017]  a alternativa a esto son modelos estocasticos que recaen, principalmente, en
+las propiedades inherentes del ambiente 
+
+## Modelos estocasticos
+
+- Uno de los modelos mas populares es el de 'Lévy Walks'. Estos parten del punto
+de vista que a nivel evolutivo las estrategias de búsqueda se adaptaron a
+escases de información y a parcelas alejadas de recursos.
+
+- Lévy Walks se definen por 3 propiedades:
+1. El largo del 'paso' obedece una distribución con cola ancha
+2. La orientación del 'paso' obedece una distribución uniforme para todas las
+   direcciones
+3. Es un proceso que satisface la propiedad de Markov, 1 y 2 no se ven afectados
+   por el 'pasado'
+   
+## Modelos estocasticos
+
+![Levy Walk](/home/nicoluarte/defensa-tesis/images/Levy.svg){width=250px}
+
+## Modelos estocasticos
+
+- Un proceso 'sin memoria' y que no considera ciertas habilidades cognitivas
+  superiores, puede tener una ventaja en ambientes dónde:
+  
+  1. La escala dónde se puede buscar es básicamente infinita
+  2. La interacción producida por la misma búsuqeda altera el ambiente
+  3. El ambiente se modifica, también, en funcíon del tiempo
+  
+## Problemas con los modelos estocasticos y estrategias emergentes
+
+1. Patrones similares se pueden dar con procesos no Markovianos influenciados
+   por memoria [@gautestadLevyFlightForaging2013] 
+2. Puede tratarse de una coincidencia a nivel fenomenologico y no estar dando
+   cuenta de un mecanismo de producción interno
+3. Estos patrones se pueden generar debido a la interacción del agente con el
+   ambiente, sin embargo hay escasa evidencia de que patrones tipo 'Lévy' puede
+   ser producidos de manera independiente a la interacción con el ámbiente [@mayeOrderSpontaneousBehavior2007] 
+
 
 ## Implementaciones neurales de las estrategias de búsqueda
-LC
+
+Para que a lo largo de la evolución la estrategia de búsqueda usada en el
+forrajeo haya sido co-optada para la búsqueda semántica, se debe contar con una
+o varias estructuras considerablemente 'antiguas' capaces de:
+
+1. Cambiar de un estado de explotación a uno de exploración, sea mediante la
+   elección aleatoria del largo del paso u otra
+2. De alguna manera asignar una distribución de probabilidad para explorar
+
+## Implementaciones neurales de las estrategias de búsqueda
+
+El Locus Coeruleus tendría un rol fundamental en soportar los mecánismos de
+exploración-explotación [@aston-jonesAdaptiveGainRole2005b] 
+
+![Conexiones eferentes del Locus Coeruleus](/home/nicoluarte/defensa-tesis/images/lc.png){width=250px}
+
+## Adaptive gain-theory
+
+LC tendría entonces la capacidad de modifcar la 'ganancia' en la activación de
+inputs excitatorios/inhibitorios
+
+![Ganancia](/home/nicoluarte/defensa-tesis/images/gain.png){width=200px}
+
+## Adaptive gain-theory
+
+Tendría dos 'modos' fásico y tónico
+
+- El fásico supone un nivel de actividad bajo en las neuronas del LC, pero tiene
+  una clara ganancia (temporal) asociada a un estimulo saliente.
+  
+
+![Modo fásico](/home/nicoluarte/defensa-tesis/images/fasico.png){width=300px}
+
+## Adaptive gain-theory
+
+- El tónico por otro lado estaría asociado a un mayor nivel de actividad global,
+  sin embargo dicha actividad no esta relacionada temporalmente con el estimulo
+- En conjunto con la corteza orbito frontal, pre-frontal y corteza singulada
+  anterior, se determinaria el modo para lidiar con el cambio de explotación
+  (fásico) a exploración (tónico)
+  
+## Adaptive gain-theory
+
+![Estimación utilidad](/home/nicoluarte/defensa-tesis/images/info.png){width=250px}
+  
+## Adaptive gain-theory
+  
+![Cambio adaptativo](/home/nicoluarte/defensa-tesis/images/modo.png){width=300px}
+  
 
 ## Co-opción de las estrategias de búsqueda
-Centrarse en argumentos evolutivos, poner todos los peros
 
+De momento, y relajando ciertos supuestos, podemos determinar que:
+
+1. Búsqueda semántica y espacial se situan en el dilema de
+   exploración-explotación
+2. Ambos tienden a seguir patrones tipo 'Lévy'
+   [@hillsForagingSemanticFields2015b] 
+   
+## Co-opción de las estrategias de búsqueda
+
+- Existe una gran presencia de este tipo de estrategia a lo largo de
+muchas especies [@hillsExplorationExploitationSpace2015]
+
+- Esta estrategia parece ser óptima e independiente de la escala
+  [@wosniackEvolutionaryOriginsLevy2017] 
+  
+- Su implementación a nivel neural parece estar soportado, en parte, por
+  estructuras 'antiguas' o bien con funciones primitivas
+  [@hillsAnimalForagingEvolution2006] 
+  
+- En humanos la actividad del LC (medida a través de diametro pupilar) predice
+  cambios entre exploración explotación [@jepmaPupilDiameterPredicts2011] 
+  
+- Finalmente, humanos utilizan mismas estrategias en búsqueda internas como
+  externas [@wilkeFishingRightWords2009] 
 
 
 ## Conclusiones
-- recapitulación
-- problemas
-- falta de investigacióne empirica
-- pasos futuros
+
+- Búsquedas internas y externas parecen seguir los mismos patrones
+
+- Existen ciertos patrones (Lévy) que parecen ser óptimos en condiciones
+  tipicamente encontradas y por ello, por selección natural, estructuras que la
+  soporten podrían haber sido seleccionados
+  
+- Dichas estructuras que soportaban el forrajeo, podrían por co-opción, también
+  soportar la búsqueda semántica
+  
+- Evidencia empirica minima
+
+- Dificultad en trazar el camino evolutivo en nuestra especie
 
   
 ## Referencias
