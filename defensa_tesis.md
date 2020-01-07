@@ -12,149 +12,218 @@ theme: "Boadilla"
 much the same the way that animals forage in space'
 [@hillsOptimalForagingSemantic2012a]
 
-- Esto parece ser resultado de al menos dos elementos:
+## Búsqueda semantica
 
-
-1. La 'estructura' de la búsqueda es similar
-2. Existen 'algoritmos' (o partes de ellos) que parecen ser 'óptimos' para
-   resolver la búsqueda dadas ciertas condiciones tipicamente encontradas en la
-   naturaleza. Evolutivamente se seleccionaron organos que pueden ejecutar
-   dicha función.
-   
-## La estructura de la búsqueda
-### El dilema 'explorar-explotar'
-Considerando un ambiente dónde la entrega de recompensa esta ligado de una
-manera u otra a la acción de un agente. Para que dicho agente obtenga
-recompensa, este debe preferir acciones que ha realizado en el pasado y le han
-otorgado recompensa, pero para descubrir tales acciones, debe elegir acciones
-que no ha elegido previamente.
-
-El agente debe 'explotar' dichas acciones que ya sabe producen recompensa, pero
-también debe 'explorar' para poder elegir dichas acciones en primer lugar.
-
-## La estructura de la búsqueda
-
-Las condiciones para que un agente este bajo el dilema de explorar-explotar son
-minimas:
-
-1. El agente debe tener conocimiento parcial (o no tener conocimiento) de la
-   acción óptima en cada momento.
-2. Explorar opciones implica no explotar. 
-3. Explorar implica de alguna manera u otra un 'gasto'.
-4. Explotar (de ambas opciones) es igualmente o mas recompensada.
-
-- Bajo esas consideraciones, la búsqueda espacial tanto como la búsqueda de
-  representaciones mentales (búsqueda semántica) parecen obedecer a dicho dilema
+- La búsqueda semántica nos permite recuperar memorias que están relacionadas
+  con la tarea o situación a nivel de significado, sin necesidad de haber tenido
+  la experiencia de dicho contenido.
   
-## La estructura de la búsqueda
-### La búsqueda semántica, considerada como búsqueda con 'distancias'
-- Para poder considerar la búsqueda semántica dentro de este dilema es
-necesario aclarar las condiciones bajo las cuales esto sería cierto.
-
-1. Los contenidos semánticos están organizados en parcelas ('patches')
-2. Entre parcelas existe algún tipo de distancia, en tanto pasar de una a otra
-   incurre en un gasto
-   
+- El paradigma mas típico de estudio son las tareas de 'semantic fluency'. Aquí,
+  participantes deben recuperar la mayor cantidad de ítems (únicos) de una categoría
+  (animales, por ejemplo) dentro de un tiempo determinado.
   
-- 'Semantic fluency tasks': se le pide a
-  sujetos que nombren la mayor cantidad de animales en un tiempo determinado.
-  Asumiendo categorías de los animales, se observa que los sujetos producen mas
-  animales por segundo dentro de la categoría, y luego, al cambiar de categoría,
-  se produce un retraso en esta producción. La distribución de los tiempos entre
-  producción de animales obedecen patrones tipo 'Levy'
+- Se ha observado que las respuestas tienden a estar agrupadas en parcelas
+  semánticamente relacionadas [@hillsOptimalForagingSemantic2009] :
   
-## Búsqueda interna y externa
+  Animales $\rightarrow$ Animales domesticos $\rightarrow$ {perro, gato, ...}
 
-![Búsqueda interna y externa](/home/nicoluarte/defensa-tesis/images/semantic.png){ width=400px }
+## Toma de decisiones
+
+- Entonces, ¿de qué manera se decide pasar de una parcela a otra?
+
+- Adicionalmente, es necesario conocer:
+
+1. Cantidad y fuente de la información que es utilizable para quién realiza la
+   búsqueda
+2. Qué propiedad de la informacíon utiliza para generar umbrales de decisión
+3. De qúe manera evalúa su propia decisión
+
+## Toma de decisiones secuenciales
+
+- Además de lo anterior, incluso en esta simple tarea, estamos en presencia de
+  una toma de decisiones secuencial, es decir, las decisiones tomadas en un
+  momento afectan las condiciones que el ambiente tendrá en el siguiente
+  momento.
+- Sí digo 'perro', la siguiente palabra no puede ser nuevamente 'perro'
+- Este tipo de problemas cae sobre la disciplina de 'refinforcement learning'
+
+## Toma de decisiones secuenciales
+
+![Toma de decisiones secuenciales](/home/nicoluarte/defensa-tesis/images/rl.jpg){ width=250px }
+
+## Toma de decisiones secuenciales
+
+Incluso bajo modelos muy sencillos, para que se tome una buena decisión la
+cantidad de información a retener y procesar parece ser enorme, dependiente de
+la cantidad de opciones y tiempo de permanencia en la tarea.
+
+![Función de valor](/home/nicoluarte/defensa-tesis/images/value.png){ width=350px }
+
+- Dónde 'Q' índica el valor estimado de la acción 'a' en el tiempo 't' y '1' es
+  una variable aleatoria que toma el valor cuando la acción $A_{i}$ es igual a
+  la acción que se evalua actualmente
+- Para el ejemplo de la tarea cada parcela sería una acción posible
+- La decisión sería 'greedy', es decir, elegir la acción de mayor valor
+
+## Heurísticos
+
+- Considerando la alta velocidad requerida para recuperar memorias en
+  situaciones naturales, parece ser poco plausible un mecanismo de decisión de
+  tal complejidad.
+- Dado este problema y el hecho que en algunas situaciones encontrar una
+  solución óptima puede ser imposible [@gigerenzerWhyHeuristicsWork2008a], se ha
+  propuesto la utilización de 'heuristicos', esto es, soluciones no-óptimas y
+  rápidamente computables que pueden ofrecer resultados semejantes a los óptimos
+  si es que estos evolucionaron de manera conjunta con el problema [@mousaviHeuristicsAreTools2017] 
+
+## Dilema de exploración-explotación
+
+- Los heuristicos buscan operar sobre las estructuras subyacentes a los
+  diferentes problemas, para ofrecer soluciones prácticas. En este problema de
+  búsqueda lo subyacente es el dilema de explorar-expotar.
   
-## Estrategias de búsqueda basadas en reglas
-Se desprende la teoría de forrajeo óptimo 'optimal foraging theory' [@bartumeusOptimalSearchBehavior2009a] y considera 4 problemas fundamentales que enfrenta el agente en búsqueda de 'alimento': 
+![Escoger el buen lugar de siempre o probar algo
+nuevo](/home/nicoluarte/defensa-tesis/images/explo.png){ width=300px }
 
-1. qué comer
-2. qué tipo de parcela buscar
-3. cúando salir de una parcela
-4. cómo moverse entre parcelas
+## Dilema de exploración-explotación
 
-La teoría supone que el agente, en estos 4 aspectos, toma la decisión para optimizar cantidad de energía adquirida por unidad de tiempo usada en el forrajeo. La regla para tomar dichas decisiones se determina por el teorema de valor marginal ('margina value theorem') [@charnovOptimalForagingMarginal1976a] 
+### De manera un poco mas formal
+Explorar es la acción de recolectar información acerca del valor que cada acción
+tiene bajo un ambiente determinado en un punto especifico del tiempo, por otro
+lado, explotar significar tomar un acción determinada para obtener el valor que
+ella tiene en dicho ambiente en un punto especifico del tiempo. 
 
-## Marginal value theorem
+- El dilema nace, ya que explorar y explotar son actividades mutuamente
+  exclusivas. Y tipicamente, quién busca lo hace para obtener cierto beneficio
+  (explotando), sin embargo, para obtener el mejor beneficio es necesario probar
+  las diferentes opciones.
 
-![Tiempo óptimo de salida](/home/nicoluarte/defensa-tesis/images/mvt.png){ width=250px }
+## Soluciones primitivas
 
-## Marginal value theorem
+- Para encontrar cuales son las estrategias subyacentes a la búsqueda semántica,
+  se ha propuesto observar al comportamient de 'forrajeo', ya que:
+  
+1. La problematica subyacente es igualmente la de explorar-explotar
+2. El éxito de la estrategia está vínculado al éxito reproductivo
+3. Estructuras que hayan soportado este tipo de búsqueda podrían ser utilizadas
+   para resolver 'búsquedas internas', en tanto fueron sometidas a selección natural
 
-Determinación del tiempo en la parcela
+## Forrajeo y el dilema de explorar-explotar
 
-- $h_{i}$ $\leftarrow$ tiempo de permanencia óptimo en la parcela i
-- $S_{i}$ $\leftarrow$ nivel de recursos en la parcela i
-- $t_{s}$ $\leftarrow$ tiempo de viaje promedio entre dos parcelas
-- $S_{a}$ $\leftarrow$ nivel de recursos a través de las parcelas
-- $K$ $\leftarrow$ constante que representa que tan pronunciada es la pendiente de consumo al tiempo 0 en cada parcela
+El forrajeo es la búsqueda de alimento en la naturaleza y el éxito de esta
+búsqueda determina en gran parte fu 'fitness', en tanto afecta la supervivencia.
 
-![$h_{i}* = S_{i}\sqrt{\frac{t_{s}}{S_{a} K}}$](/home/nicoluarte/defensa-tesis/images/mvt_change.jpg){ width=170px }
+- Dada las condiciones actuales de la tierra, los 'recursos' tienden a estar
+  concentrados en parcelas de distinta densidad y la distancia entre parcelas es
+  significativamente mas grande que la existente entre recursos dentro de una
+  parcelas
+- La teoría de forrajeo entonces estudia, dentro de otros, el movimiento
+  intra-parcela así como el de entre parcelas
+- Debido a que el aparato sensorial de los organismo es limitido de una u otra
+  manera, es imposible para estos determinar el valor de cada parcela sin antes
+  haber realizado exploración. Por ello, cae igualmente dentro del dilema mencionado
+  
+## Forrajeo y el dilema de explorar-explotar
 
+![Forrajeo](/home/nicoluarte/defensa-tesis/images/foraging.png){ width=200px }
 
-## Estrategias de búsqueda basadas en 'random walks'
+## Modelos
 
-Las principales dificultades con los modelos basados en reglas son principalmente las siguientes:
+Para definir un heuristico es necesario generar un modelo que permita testearlo
+e ir más allá de una simple descripción [@gigerenzerWhyHeuristicsWork2008a].
+Para definir el heuristico que lidia con la exploración-explotación lo
+consideramos en su nicho de mas probable evolución, el forrajeo, y para
+definirlo consideramos modelos que buscan captar en 'esencia' este
+comportamiento.
+
+## Basados en reglas
+
+Uno de los primeros modelos salidos de la 'optimal foraging theory' fue el del
+'marginal value theorem' [@charnovOptimalForagingMarginal1976a]. Básicamente
+este teorema, entre otros elementos, define que el organismo determina un tiempo
+de abandono de la parcela que es identico al 'optimo'.
+
+$R = \frac{g(t_{w})}{t_{w} + t_{b}}$
+
+- Dónde R es la ganancia (de nutrientes u otro) por unidad de tiempo
+- $g(t_{w})$ es la ganancia acumulada dentro de una parcela
+- $t_{w}$ es el tiempo recorrido dentro de la parcela
+- $t_{b}$ es el tiempo de reccorido medio entre parcelas
+
+- El teorema entonces dice que el organismo permanecera dentro de la parcela
+  hasta que la ganancia hasta que la tasa instantanea de ganancia sea igual a la
+  tasa promedio de ganancia dentro del ámbiente
+  
+## Basados en reglas
+
+![Cambio de parcela](/home/nicoluarte/defensa-tesis/images/mvt_change.jpg){ width=350px }
+
+## 'Random walks'
+El modelo anterior ciertamente reduce la complejidad para resolver este dilema,
+sin embargo:
 
 1. Asumen pasividad del recurso a consumir
 2. Asumen un conocimiento del agente bastante elevado y de largo alcance
 3. Evidencia empirica contra las predecciones del modelo
-[@jesmerStatedependentBehaviorAlters2017]  a alternativa a esto son modelos estocasticos que recaen, principalmente, en
+[@jesmerStatedependentBehaviorAlters2017] 
+
+La alternativa a esto son modelos estocasticos que recaen, principalmente, en
 las propiedades inherentes del ambiente 
 
-## Modelos estocasticos
+## 'Random walks'
 
-- Uno de los modelos mas populares es el de 'Lévy Walks'. Estos parten del punto
-de vista que a nivel evolutivo las estrategias de búsqueda se adaptaron a
-escases de información y a parcelas alejadas de recursos.
+Una caminata o paseo aleatorio es la trayectoria resultante de tomar sucesivos
+pasos aleatorios en un espacio determinado. Este tipo de modelos es altamente
+utilizado en el campo de la etología para describir el compormiento de forrajeo.
 
-- Lévy Walks se definen por 3 propiedades:
-1. El largo del 'paso' obedece una distribución con cola ancha
-2. La orientación del 'paso' obedece una distribución uniforme para todas las
-   direcciones
-3. Es un proceso que satisface la propiedad de Markov, 1 y 2 no se ven afectados
-   por el 'pasado'
+- Uno de los modelos principales que se utilizan son las 'Levy-walks'.
+
+## Levy-walks
+
+- Una 'Lévy-walk' es una caminata aleatoria, dónde:
+
+1. El tamaño del paso esta definido por una distribución de probabilidad tipo
+   Lévy: colas anchas, describe la frecuencia para un largo de paso mayor a 0
    
-## Modelos estocasticos
+![Distribución Lévy](/home/nicoluarte/defensa-tesis/images/levy.png){
+width=150px }
 
-![Levy Walk](/home/nicoluarte/defensa-tesis/images/Levy.svg){width=250px}
+## Levy-walks
 
-## Modelos estocasticos
+2. La dirección del paso se determina de una distribución uniforme para cada
+   posible dirección
+   
+![Para un espacio 2D, a = 0, b = 2*pi radianes](/home/nicoluarte/defensa-tesis/images/uniform.png){width=200px}
 
-- Un proceso 'sin memoria' y que no considera ciertas habilidades cognitivas
-  superiores, puede tener una ventaja en ambientes dónde:
-  
-  1. La escala dónde se puede buscar es básicamente infinita
-  2. La interacción producida por la misma búsuqeda altera el ambiente
-  3. El ambiente se modifica, también, en funcíon del tiempo
-  
-## Problemas con los modelos estocasticos y estrategias emergentes
+## Levy-walks
 
-1. Patrones similares se pueden dar con procesos no Markovianos influenciados
-   por memoria [@gautestadLevyFlightForaging2013] 
-2. Puede tratarse de una coincidencia a nivel fenomenologico y no estar dando
-   cuenta de un mecanismo de producción interno
-3. Estos patrones se pueden generar debido a la interacción del agente con el
-   ambiente, sin embargo hay escasa evidencia de que patrones tipo 'Lévy' puede
-   ser producidos de manera independiente a la interacción con el ámbiente [@mayeOrderSpontaneousBehavior2007] 
+![Ejemplo de caminata Lèvy](/home/nicoluarte/defensa-tesis/images/levysample.png){width=200px}
 
+## Levy-walks
 
-## Implementaciones neurales de las estrategias de búsqueda
+Razones de proponer este modelo:
 
-Para que a lo largo de la evolución la estrategia de búsqueda usada en el
-forrajeo haya sido co-optada para la búsqueda semántica, se debe contar con una
-o varias estructuras considerablemente 'antiguas' capaces de:
+1. Patron observados en gran cantidad de animales [@bartumeusLEVYPROCESSESANIMAL2007a], incluido humanos [@raichlenEvidenceLevyWalk2013] 
+2. Son robustas optimizando busquedas en distintos tipos de ambientes [@wosniackEvolutionaryOriginsLevy2017] 
+3. Requieren solo limitadas capacidades de procesamiento por parte del organismo
+4. Por lo anteior, se perfilan como buen candidato para haber sido producto de selecciòn natural
 
-1. Cambiar de un estado de explotación a uno de exploración, sea mediante la
-   elección aleatoria del largo del paso u otra
-2. De alguna manera asignar una distribución de probabilidad para explorar
+## Un caso de co-opción
 
-## Implementaciones neurales de las estrategias de búsqueda
+Co-opcion es un concepto evolutivo, que describe como ciertos rasgos que evolucionaron dando lugar a una funcion particular, luego cambian su funcion sin necesidad de una modificacion estructural. El fenomeno de co-opciòn es frecuente y observado, tambien, a nivel de comportamiento [@mclennanConceptCooptionWhy2008]
 
-El Locus Coeruleus tendría un rol fundamental en soportar los mecánismos de
-exploración-explotación [@aston-jonesAdaptiveGainRole2005b] 
+- La hipotesis sostiene que los rasgos que sustentaron el forrajeo fueron co-optados para la funciòn de busqueda semantica [@hillsExplorationExploitationSpace2015] 
+
+## Selección natural de estructuras, implementación neural
+
+Ya que la funcion de forrajeo es aun utilizada por humanos, es de esperar, si se trata de un caso de co-opcion, efectivamente las mismas estructuras sostengan ambas funciones, presentando, tambien, las mismas estrategias.
+
+- Para ello determinar cuales son las estructuras u organos subyacentes a la funcion de forrajeo es el primer paso en revisar esta hipotesis
+
+## Selección natural de estructuras, implementación neural
+
+Unas de las principales estructuras en regular esto serìa el Locus Coeruleus al tener un rol fundamental en soportar los mecánismos de exploración-explotación [@aston-jonesAdaptiveGainRole2005b] 
+
 
 ![Conexiones eferentes del Locus Coeruleus](/home/nicoluarte/defensa-tesis/images/lc.png){width=250px}
 
@@ -190,23 +259,28 @@ Tendría dos 'modos' fásico y tónico
 ## Adaptive gain-theory
   
 ![Cambio adaptativo](/home/nicoluarte/defensa-tesis/images/modo.png){width=300px}
-  
 
-## Co-opción de las estrategias de búsqueda
+## Implementacion neural
 
-De momento, y relajando ciertos supuestos, podemos determinar que:
+Debido a la alta conectividad del cerebro, muchas estructuras aportan un rol, indirecto tales como la amigdala y el cuerpo estriado a traves de la corteza orbito frontal [@aston-jonesAdaptiveGainRole2005b]. Por lo anterior, me he limitado ha mencionar lo mas 'nuclear'
 
-1. Búsqueda semántica y espacial se situan en el dilema de
-   exploración-explotación
-2. Ambos tienden a seguir patrones tipo 'Lévy'
-   [@hillsForagingSemanticFields2015b] 
-   
-## Co-opción de las estrategias de búsqueda
+## Aumento de complejidad, inputs internos
+
+Una de las dificultades en observar las funciones que controlan la explotacion-exploracion, es que estos procesos parecen ser dependiente del estado del organismo.
+
+- Se ha observado que un estado de nutricion deficitario genera un sesgo hacia explotacion [@corrales-carvajalInternalStatesDrive2016] 
+- De manera similar el stress parece inducir un sesgo hacia explotacion [@grahamStressImpairsOptimal2010] 
+- Esto ha sido observado igualmente en humanos [@lenowChronicAcuteStress2017] 
+
+Por lo tanto, en un modelo mas exhaustivo todas las estructuras relacionadas con lo anterior debiesen ser incluidas.
+
+
+## Co-opción un resumen
 
 - Existe una gran presencia de este tipo de estrategia a lo largo de
 muchas especies [@hillsExplorationExploitationSpace2015]
 
-- Esta estrategia parece ser óptima e independiente de la escala
+- Esta estrategia parece ser óptima (Lèvy-walks) e independiente de la escala del ambiente
   [@wosniackEvolutionaryOriginsLevy2017] 
   
 - Su implementación a nivel neural parece estar soportado, en parte, por
@@ -218,7 +292,6 @@ muchas especies [@hillsExplorationExploitationSpace2015]
   
 - Finalmente, humanos utilizan mismas estrategias en búsqueda internas como
   externas [@wilkeFishingRightWords2009] 
-
 
 ## Conclusiones
 
