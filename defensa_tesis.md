@@ -111,7 +111,7 @@ ella tiene en dicho ambiente en un punto específico del tiempo.
 ## Forrajeo y el dilema de explorar-explotar
 
 El forrajeo es la búsqueda de alimento en la naturaleza y el éxito de esta
-búsqueda determina en gran parte fu 'fitness', en tanto afecta la supervivencia.
+búsqueda determina en gran parte 'fitness', en tanto afecta la supervivencia.
 
 - Dada las condiciones actuales de la tierra, los 'recursos' tienden a estar
   concentrados en parcelas de distinta densidad y la distancia entre parcelas es
@@ -260,7 +260,7 @@ Tendría dos 'modos' fásico y tónico
   
 ## Adaptive gain-theory
 
-![Estimación utilidad](/home/nicoluarte/defensa-tesis/images/info.png){width=250px}
+![Estimación de utilidad y cambio de modo](/home/nicoluarte/defensa-tesis/images/neuralnetwork.png){width=300px}
   
 ## Adaptive gain-theory
   
