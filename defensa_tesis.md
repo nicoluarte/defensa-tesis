@@ -151,7 +151,7 @@ $R = \frac{g(t_{w})}{t_{w} + t_{b}}$
 - $t_{b}$ es el tiempo de recorrido medio entre parcelas
 
 - El teorema entonces dice que el organismo permanecerá dentro de la parcela
-  hasta que la ganancia hasta que la tasa instantánea de ganancia sea igual a la
+  hasta que la tasa instantánea de ganancia sea igual a la
   tasa promedio de ganancia dentro del ambiente
   
 ## Basados en reglas
