@@ -1,0 +1,67 @@
+#+LaTeX_HEADER: \usepackage{geometry}
+#+LaTeX_HEADER: \usepackage{helvet}
+#+LaTeX_HEADER: \geometry{left=3.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+#+LaTeX_HEADER: \linespread{1.25}
+
+* Agradecimientos
+
+Agradezco a CONICYT Proyecto Fondecyt Regular N°1170292 por la financiación de esta investigación.
+
+* Resumen
+
+Decisions are part of our daily lives, and it appears as if some kind of process
+is evaluating second to second all of our options. In all of such situations a
+big question arises, should I go for the well-known option or should I take my
+chances a look for a new one?. This *exploration-exploitation dilemma* is also
+present in both, foraging for resources and *semantic search*. As such, both
+problems can be seen as decision-making processes where resources and semantic
+contents locations are unknown, and somehow one must establish an efficient criterion
+for searching in an efficient way. Certain search patterns, which are
+ubiquitous across many taxa, seems to provide an optimal way for foraging
+through a previously unknown environment. Given that both semantic search and
+foraging share similarities, an evolutionary co-option of the mechanisms
+controlling foraging for semantic search is discussed. Underlying strategies for
+searching through patchy environments, neural implementations of
+exploration-exploitation control and internal aspects of foraging are discussed
+in hopes of providing an evolutionary framework for semantic search research.
+
+* Tabla de contenido
+
+* Índices de ilustraciones
+
+* Introduction
+** Semantic search
+*** What it is
+*** Empirical evidence
+*** Observed patterns
+*** Justfication of 'space' or 'effort'
+** Sequential decision making
+*** What is the 'problem' present in semantic search (specific to retrieval tasks)
+*** Brief intro to sequential decision making an its issue (da paso a exploration-exploitation)
+** The exploration-exploitation dilemma in foraging and semantic search
+*** Presentar el dilemma
+*** Connect both through evidence
+*** Connect both through logic
+* Models for a Heuristic
+*** Define heuristics clearly
+*** Put the question of what is the underlying heuristic
+*** Argue how a model could represent a heuristic
+*** Rule-based
+*** Random walks
+* A case of co-option
+*** Introduce the concept of co-option, emphasis on behavioral or search traits
+*** From where semantic search is co-opted from ? introduce foraging
+*** How this came to be
+* Neural implementations
+*** Once a strategy/heuristic is identified, it is necesary to identify the structure underlying it
+*** Base on exploration exploitation dilemma
+* State dependent foraging
+* Conclusions
+* References
+
+
+
+
+
+
+
