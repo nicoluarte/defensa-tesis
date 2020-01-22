@@ -1,12 +1,15 @@
+#+LATEX_HEADER: \usepackage[round]{natbib} 
 #+LaTeX_HEADER: \usepackage{geometry}
 #+LaTeX_HEADER: \usepackage{helvet}
 #+LaTeX_HEADER: \geometry{left=3.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
 #+LaTeX_HEADER: \linespread{1.25}
+#+OPTIONS: toc:nil
 
 * Agradecimientos
 
 Agradezco a CONICYT Proyecto Fondecyt Regular N°1170292 por la financiación de esta investigación.
 
+\newpage
 * Resumen
 
 Decisions are part of our daily lives, and it appears as if some kind of process
@@ -25,16 +28,48 @@ searching through patchy environments, neural implementations of
 exploration-exploitation control and internal aspects of foraging are discussed
 in hopes of providing an evolutionary framework for semantic search research.
 
+\newpage
 * Tabla de contenido
-
+#+TOC: headlines 2 
+\newpage
 * Índices de ilustraciones
 
+\newpage
 * Introduction
 ** Semantic search
 *** What it is
 *** Empirical evidence
 *** Observed patterns
 *** Justfication of 'space' or 'effort'
+Semantic memories are memories about the meaning of things, this conceptual
+knowlegde allows us to interact and recognize objects, plan the future and
+remember the past citep:binderNeurobiologySemanticMemory2011. Given such pivotal
+role, the way that we 'navigate' through such memories will determine the way we
+interact with the world. The space in which the 'navigation' occurs has been
+called semantic space, which corresponds to an abstraction where semantic
+memories are placed in a multi-dimensional space and the conection between them
+are defined by some vector assigning the relationship between each one in every
+dimension citep:lundProducingHighdimensionalSemantic1996a. In humans, however,
+that way that semantic memories organize into such space is not clear
+citep:benedekHowSemanticMemory2017.  
+
+Free recall tasks, which prompt the participant to recall as many objects
+pertaining to a certain category in a limited amount of time, have observed a
+'patchy' distribution of such memories citep:hillsOptimalForagingSemantic2009,
+this patchy distribution refers to a signicantly faster retrieval time when the
+participant is within a certain category (which is determined beforehand). The
+pattern describing such inter-response intervals have been compared to that of
+food-foraging citep:rhodesHumanMemoryRetrieval2007a, this suggest a notion of
+distance between memory contents that has been observed when participants are
+asked to represent in a 2D space such memories citep:montezRoleSemanticClustering2015 
+
+ 
+
+
+
+
+
+
 ** Sequential decision making
 *** What is the 'problem' present in semantic search (specific to retrieval tasks)
 *** Brief intro to sequential decision making an its issue (da paso a exploration-exploitation)
@@ -42,22 +77,33 @@ in hopes of providing an evolutionary framework for semantic search research.
 *** Presentar el dilemma
 *** Connect both through evidence
 *** Connect both through logic
+\newpage
 * Models for a Heuristic
 *** Define heuristics clearly
 *** Put the question of what is the underlying heuristic
 *** Argue how a model could represent a heuristic
 *** Rule-based
 *** Random walks
+\newpage
 * A case of co-option
 *** Introduce the concept of co-option, emphasis on behavioral or search traits
 *** From where semantic search is co-opted from ? introduce foraging
 *** How this came to be
+\newpage
 * Neural implementations
 *** Once a strategy/heuristic is identified, it is necesary to identify the structure underlying it
 *** Base on exploration exploitation dilemma
+\newpage
 * State dependent foraging
+\newpage
 * Conclusions
+\newpage
 * References
+
+bibliographystyle:apa
+bibliography:references.bib
+
+
 
 
 

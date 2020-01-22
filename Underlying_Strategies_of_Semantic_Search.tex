@@ -1,4 +1,4 @@
-% Created 2020-01-21 mar 19:23
+% Created 2020-01-22 mié 19:41
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -14,6 +14,7 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
+\usepackage[round]{natbib}
 \usepackage{geometry}
 \usepackage{helvet}
 \geometry{left=3.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
@@ -30,11 +31,15 @@
  pdflang={English}}
 \begin{document}
 
-\tableofcontents
 
+\section{Agradecimientos}
+\label{sec:orgab4e33d}
 
+Agradezco a CONICYT Proyecto Fondecyt Regular N°1170292 por la financiación de esta investigación.
+
+\newpage
 \section{Resumen}
-\label{sec:orgf08216b}
+\label{sec:org9582f6a}
 
 Decisions are part of our daily lives, and it appears as if some kind of process
 is evaluating second to second all of our options. In all of such situations a
@@ -52,9 +57,110 @@ searching through patchy environments, neural implementations of
 exploration-exploitation control and internal aspects of foraging are discussed
 in hopes of providing an evolutionary framework for semantic search research.
 
+\newpage
 \section{Tabla de contenido}
-\label{sec:org9a1d744}
-
+\label{sec:org0993aa0}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\newpage
 \section{Índices de ilustraciones}
-\label{sec:org0b24782}
+\label{sec:org9e44a65}
+
+\newpage
+\section{Introduction}
+\label{sec:org73b43ae}
+\subsection{Semantic search}
+\label{sec:orgad61c1d}
+\subsubsection{What it is}
+\label{sec:org304827d}
+\subsubsection{Empirical evidence}
+\label{sec:orga96d8d6}
+\subsubsection{Observed patterns}
+\label{sec:org6cc66f8}
+\subsubsection{Justfication of 'space' or 'effort'}
+\label{sec:org3292c49}
+Semantic memories are memories about the meaning of things, this conceptual
+knowlegde allows us to interact and recognize objects, plan the future and
+remember the past \citep{binderNeurobiologySemanticMemory2011}. Given such pivotal
+role, the way that we 'navigate' through such memories will determine the way we
+interact with the world. The space in which the 'navigation' occurs has been
+called semantic space, which corresponds to an abstraction where semantic
+memories are placed in a multi-dimensional space and the conection between them
+are defined by some vector assigning the relationship between each one in every
+dimension \citep{lundProducingHighdimensionalSemantic1996a}. In humans, however,
+that way that semantic memories organize into such space is not clear
+\citep{benedekHowSemanticMemory2017}.  
+
+Free recall tasks, which prompt the participant to recall as many objects
+pertaining to a certain category in a limited amount of time, have observed a
+'patchy' distribution of such memories \citep{hillsOptimalForagingSemantic2009},
+this patchy distribution refers to a signicantly faster retrieval time when the
+participant is within a certain category (which is determined beforehand). The
+pattern describing such inter-response intervals have been compared to that of
+food-foraging \citep{rhodesHumanMemoryRetrieval2007a}, this suggest a notion of
+distance between memory contents that has been observed when participants are
+asked to represent in a 2D space such memories \citep{montezRoleSemanticClustering2015} 
+
+
+
+
+
+
+
+
+\subsection{Sequential decision making}
+\label{sec:org7185ddf}
+\subsubsection{What is the 'problem' present in semantic search (specific to retrieval tasks)}
+\label{sec:org7029d48}
+\subsubsection{Brief intro to sequential decision making an its issue (da paso a exploration-exploitation)}
+\label{sec:orgdc55109}
+\subsection{The exploration-exploitation dilemma in foraging and semantic search}
+\label{sec:org626560d}
+\subsubsection{Presentar el dilemma}
+\label{sec:org3eb5538}
+\subsubsection{Connect both through evidence}
+\label{sec:org0b316dd}
+\subsubsection{Connect both through logic}
+\label{sec:org8498970}
+\newpage
+\section{Models for a Heuristic}
+\label{sec:org8044340}
+\subsubsection{Define heuristics clearly}
+\label{sec:org8b1ed37}
+\subsubsection{Put the question of what is the underlying heuristic}
+\label{sec:org3196b27}
+\subsubsection{Argue how a model could represent a heuristic}
+\label{sec:org8db3261}
+\subsubsection{Rule-based}
+\label{sec:org6e1b815}
+\subsubsection{Random walks}
+\label{sec:orge2fd6c0}
+\newpage
+\section{A case of co-option}
+\label{sec:orgb0b5b54}
+\subsubsection{Introduce the concept of co-option, emphasis on behavioral or search traits}
+\label{sec:org0cb1839}
+\subsubsection{From where semantic search is co-opted from ? introduce foraging}
+\label{sec:orgcf17438}
+\subsubsection{How this came to be}
+\label{sec:orga8392a9}
+\newpage
+\section{Neural implementations}
+\label{sec:org57a64f5}
+\subsubsection{Once a strategy/heuristic is identified, it is necesary to identify the structure underlying it}
+\label{sec:org9bad9a7}
+\subsubsection{Base on exploration exploitation dilemma}
+\label{sec:org0af76b7}
+\newpage
+\section{State dependent foraging}
+\label{sec:org26fa7c9}
+\newpage
+\section{Conclusions}
+\label{sec:orgbe6015a}
+\newpage
+\section{References}
+\label{sec:org77a5bd1}
+
+\bibliographystyle{apa}
+\bibliography{references}
 \end{document}
