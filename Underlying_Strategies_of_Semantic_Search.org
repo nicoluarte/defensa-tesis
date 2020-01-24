@@ -38,9 +38,6 @@ in hopes of providing an evolutionary framework for semantic search research.
 * Introduction
 ** Semantic search
 *** What it is
-*** Empirical evidence
-*** Observed patterns
-*** Justfication of 'space' or 'effort'
 Semantic memories are memories about the meaning of things, this conceptual
 knowlegde allows us to interact and recognize objects, plan the future and
 remember the past citep:binderNeurobiologySemanticMemory2011. Given such pivotal
@@ -52,24 +49,48 @@ are defined by some vector assigning the relationship between each one in every
 dimension citep:lundProducingHighdimensionalSemantic1996a. In humans, however,
 that way that semantic memories organize into such space is not clear
 citep:benedekHowSemanticMemory2017.  
+*** Empirical evidence and space justificaction
 
 Free recall tasks, which prompt the participant to recall as many objects
 pertaining to a certain category in a limited amount of time, have observed a
 'patchy' distribution of such memories citep:hillsOptimalForagingSemantic2009,
 this patchy distribution refers to a signicantly faster retrieval time when the
-participant is within a certain category (which is determined beforehand). The
-pattern describing such inter-response intervals have been compared to that of
+participant are within a certain category (which is determined beforehand), more
+than when they're not. The idea of a semantic space, with distances between contents, was
+first developed by supervised semantic network modeling based on lexical
+co-ocurrence citep:lundProducingHighdimensionalSemantic1996a, which found
+correlations between the distances calculated by this model and human reaction
+times.
+
+The specific way this 'distance' exists in the brain is not known, however,
+earlier studies lesion studies showed that specific neurological damage affect
+specific semantic categories
+citep:hillisCATEGORYSPECIFICNAMINGCOMPREHENSION1991, tempting that this
+categories have some physical distance between them. Functional neuroimaging
+data points in a similar direction, but is not clear wether the structure
+represents actual semantic categories or some modality-specifc sub-divisions
+citep:caramazzaOrganizationConceptualKnowledge2003,binderWhereSemanticSystem2009.
+Network science studies have indicated that within category elements present
+lower average shortest path length, higher clustering coefficient and lower
+network modularity, implying that semantic contents are distributed in dense
+clusters pertaining to each category and that access to items within a category
+have efficient access between them compared to another category
+citep:benedekHowSemanticMemory2017.
+*** Observed patterns
+
+Given a semantic space with a clustered-patchy distribution, the question of how
+to efficiently retrieve such contenst arises. Recall tasks data points that
+inter-retrieval intervals (IRI) when participants are producing items within a given
+category are signicantly shorter that when they are not
+citep:abbottRandomWalksSemantic2015a. IRI on this type of task have shown to be
+following a Lévy probability density distribution with an exponent near 2 when
+the retrievals are more efficient citep:rhodesHumanMemoryRetrieval2007a 
+
+pattern describing such inter-retrieval intervals have been compared to that of
 food-foraging citep:rhodesHumanMemoryRetrieval2007a, this suggest a notion of
 distance between memory contents that has been observed when participants are
-asked to represent in a 2D space such memories citep:montezRoleSemanticClustering2015 
-
- 
-
-
-
-
-
-
+asked to represent in a 2D space such memories
+citep:montezRoleSemanticClustering2015 
 ** Sequential decision making
 *** What is the 'problem' present in semantic search (specific to retrieval tasks)
 *** Brief intro to sequential decision making an its issue (da paso a exploration-exploitation)

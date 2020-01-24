@@ -5,13 +5,13 @@
                      '(("article" "11pt")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
                      '(("inputenc" "utf8") ("fontenc" "T1") ("ulem" "normalem") ("natbib" "round")))
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
@@ -34,39 +34,39 @@
     "geometry"
     "helvet")
    (LaTeX-add-labels
-    "sec:orgab4e33d"
-    "sec:org9582f6a"
-    "sec:org0993aa0"
-    "sec:org9e44a65"
-    "sec:org73b43ae"
-    "sec:orgad61c1d"
-    "sec:org304827d"
-    "sec:orga96d8d6"
-    "sec:org6cc66f8"
-    "sec:org3292c49"
-    "sec:org7185ddf"
-    "sec:org7029d48"
-    "sec:orgdc55109"
-    "sec:org626560d"
-    "sec:org3eb5538"
-    "sec:org0b316dd"
-    "sec:org8498970"
-    "sec:org8044340"
-    "sec:org8b1ed37"
-    "sec:org3196b27"
-    "sec:org8db3261"
-    "sec:org6e1b815"
-    "sec:orge2fd6c0"
-    "sec:orgb0b5b54"
-    "sec:org0cb1839"
-    "sec:orgcf17438"
-    "sec:orga8392a9"
-    "sec:org57a64f5"
-    "sec:org9bad9a7"
-    "sec:org0af76b7"
-    "sec:org26fa7c9"
-    "sec:orgbe6015a"
-    "sec:org77a5bd1")
+    "sec:orgc9a122a"
+    "sec:org9b45df7"
+    "sec:orgf51ec8b"
+    "sec:orgb7e0a54"
+    "sec:orga78922a"
+    "sec:org5a7db3e"
+    "sec:org2341ec4"
+    "sec:orgc235d9e"
+    "sec:org2ee09c3"
+    "sec:orge7a6878"
+    "sec:org4176170"
+    "sec:org653b483"
+    "sec:orgdfa4cbe"
+    "sec:orge32b91d"
+    "sec:org86c6828"
+    "sec:org3f5defb"
+    "sec:orge589a7b"
+    "sec:org1af2711"
+    "sec:org49ee9eb"
+    "sec:org022977a"
+    "sec:org0150a6d"
+    "sec:org0cc6752"
+    "sec:orgbe9bd84"
+    "sec:org5f1d09f"
+    "sec:orgc83a8ae"
+    "sec:orgcf84bac"
+    "sec:org422bbe4"
+    "sec:orgb5e48ca"
+    "sec:org048f73b"
+    "sec:org3c2378c"
+    "sec:org51bf4dd"
+    "sec:org3bbea26"
+    "sec:orgedbba44")
    (LaTeX-add-bibliographies
     "references"))
  :latex)

@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Underlying_Strategies_of_Semantic_Search.aux
 The style file: apa.bst
 Database file #1: references.bib
-You've used 6 entries,
+You've used 9 entries,
             1940 wiz_defined-function locations,
-            521 strings with 5157 characters,
-and the built_in function-call counts, 2565 in all, are:
-= -- 250
-> -- 108
-< -- 3
-+ -- 40
-- -- 36
-* -- 246
-:= -- 442
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 47
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 84
-empty$ -- 176
-format.name$ -- 48
-if$ -- 486
+            545 strings with 5934 characters,
+and the built_in function-call counts, 3882 in all, are:
+= -- 383
+> -- 157
+< -- 5
++ -- 58
+- -- 52
+* -- 375
+:= -- 662
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 70
+chr.to.int$ -- 9
+cite$ -- 9
+duplicate$ -- 126
+empty$ -- 270
+format.name$ -- 71
+if$ -- 739
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 33
-num.names$ -- 18
-pop$ -- 38
+missing$ -- 10
+newline$ -- 48
+num.names$ -- 27
+pop$ -- 53
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 71
 quote$ -- 0
-skip$ -- 63
+skip$ -- 95
 stack$ -- 0
-substring$ -- 207
-swap$ -- 12
+substring$ -- 332
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 34
+type$ -- 52
 warning$ -- 0
-while$ -- 22
+while$ -- 34
 width$ -- 0
-write$ -- 79
+write$ -- 118

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Underlying_Strategies_of_Semantic_Search"] 1579732873 "Underlying_Strategies_of_Semantic_Search.aux" "Underlying_Strategies_of_Semantic_Search.bbl" "Underlying_Strategies_of_Semantic_Search" 1579732873
+["bibtex Underlying_Strategies_of_Semantic_Search"] 1579898433 "Underlying_Strategies_of_Semantic_Search.aux" "Underlying_Strategies_of_Semantic_Search.bbl" "Underlying_Strategies_of_Semantic_Search" 1579898434
   "/usr/share/texmf-dist/bibtex/bst/beebe/apa.bst" 1572567841 23582 e3c8338eb1efb7432441aa8861285f53 ""
-  "Underlying_Strategies_of_Semantic_Search.aux" 1579732873 9075 3a36e0101e6541263523d06cbcefd43f "pdflatex"
-  "references.bib" 1579725631 252688 66fad735dff4af7e3fdf2c9b0c0568b7 ""
+  "Underlying_Strategies_of_Semantic_Search.aux" 1579898433 9533 90b001039f9e03f6f434ce06fc5f11f2 "pdflatex"
+  "references.bib" 1579897674 260783 590b645514ccf4b76abe2fb934cc9de7 ""
   (generated)
-  "Underlying_Strategies_of_Semantic_Search.bbl"
   "Underlying_Strategies_of_Semantic_Search.blg"
-["pdflatex"] 1579732873 "Underlying_Strategies_of_Semantic_Search.tex" "Underlying_Strategies_of_Semantic_Search.pdf" "Underlying_Strategies_of_Semantic_Search" 1579732873
+  "Underlying_Strategies_of_Semantic_Search.bbl"
+["pdflatex"] 1579898433 "Underlying_Strategies_of_Semantic_Search.tex" "Underlying_Strategies_of_Semantic_Search.pdf" "Underlying_Strategies_of_Semantic_Search" 1579898434
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1572595918 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1572595918 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1572595918 3332 103109f5612ad95229751940c61aada0 ""
@@ -101,14 +101,14 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1579640677 4572998 f9631eebba48c3ee98e5d310044b0a09 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1579640674 8044939 2b0d93b0f2e27271dbc36285b458bfdc ""
-  "Underlying_Strategies_of_Semantic_Search.aux" 1579732873 9075 3a36e0101e6541263523d06cbcefd43f "pdflatex"
-  "Underlying_Strategies_of_Semantic_Search.bbl" 1579732873 1746 0544eb392ab999862f3329bf85a6a4ac "bibtex Underlying_Strategies_of_Semantic_Search"
-  "Underlying_Strategies_of_Semantic_Search.out" 1579732873 835 a39769f2cb37e49202a0a1e30f3dda07 "pdflatex"
-  "Underlying_Strategies_of_Semantic_Search.tex" 1579732868 6074 24b1785975a042014e0c8c571d62592b ""
-  "Underlying_Strategies_of_Semantic_Search.toc" 1579732873 3352 1e5bab67695bd90a9dd6fead88e9605d "pdflatex"
+  "Underlying_Strategies_of_Semantic_Search.aux" 1579898433 9533 90b001039f9e03f6f434ce06fc5f11f2 "pdflatex"
+  "Underlying_Strategies_of_Semantic_Search.bbl" 1579898433 2705 4c3ebdcabec47de41912068c84418e62 "bibtex Underlying_Strategies_of_Semantic_Search"
+  "Underlying_Strategies_of_Semantic_Search.out" 1579898433 835 a39769f2cb37e49202a0a1e30f3dda07 "pdflatex"
+  "Underlying_Strategies_of_Semantic_Search.tex" 1579898402 6975 01faf6750efc85652cc3803146670d86 ""
+  "Underlying_Strategies_of_Semantic_Search.toc" 1579898433 3353 09263ae5c2cbd1e50fbfffb3879cd6b0 "pdflatex"
   (generated)
-  "Underlying_Strategies_of_Semantic_Search.toc"
   "Underlying_Strategies_of_Semantic_Search.pdf"
-  "Underlying_Strategies_of_Semantic_Search.out"
-  "Underlying_Strategies_of_Semantic_Search.log"
   "Underlying_Strategies_of_Semantic_Search.aux"
+  "Underlying_Strategies_of_Semantic_Search.log"
+  "Underlying_Strategies_of_Semantic_Search.out"
+  "Underlying_Strategies_of_Semantic_Search.toc"
