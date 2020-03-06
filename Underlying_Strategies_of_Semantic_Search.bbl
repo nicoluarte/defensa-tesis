@@ -1,5 +1,29 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{171}{}]{171111125Predicting}
+[1711.11125] {{Predicting}} and {{Explaining Human Semantic Search}} in a
+  {{Cognitive Model}}.
+\newblock https://arxiv.org/abs/1711.11125.
+
+\bibitem[\protect\astroncite{Abbott
+  et~al.}{2015}]{abbottRandomWalksSemantic2015a}
+Abbott, J.~T., Austerweil, J.~L., and Griffiths, T.~L. (2015).
+\newblock Random walks on semantic networks can resemble optimal foraging.
+\newblock {\em Psychological Review}, 122(3):558--569.
+
+\bibitem[\protect\astroncite{Bartumeus}{2007}]{bartumeusLEVYPROCESSESANIMAL2007a}
+Bartumeus, F. (2007).
+\newblock {{L{\'E}VY PROCESSES IN ANIMAL MOVEMENT}}: {{AN EVOLUTIONARY
+  HYPOTHESIS}}.
+\newblock {\em Fractals}, 15(02):151--162.
+
+\bibitem[\protect\astroncite{Bartumeus and
+  Catalan}{2009}]{bartumeusOptimalSearchBehavior2009a}
+Bartumeus, F. and Catalan, J. (2009).
+\newblock Optimal search behavior and classic foraging theory.
+\newblock {\em Journal of Physics A: Mathematical and Theoretical},
+  42(43):434002.
+
 \bibitem[\protect\astroncite{Benedek
   et~al.}{2017}]{benedekHowSemanticMemory2017}
 Benedek, M., Kenett, Y.~N., Umdasch, K., Anaki, D., Faust, M., and Neubauer,
@@ -7,6 +31,11 @@ Benedek, M., Kenett, Y.~N., Umdasch, K., Anaki, D., Faust, M., and Neubauer,
 \newblock How semantic memory structure and intelligence contribute to creative
   thought: A network science approach.
 \newblock {\em Thinking \& Reasoning}, 23(2):158--183.
+
+\bibitem[\protect\astroncite{Benhamou}{2007}]{benhamouHOWMANYANIMALS2007}
+Benhamou, S. (2007).
+\newblock How {{Many Animals Really Do}} the {{L{\'e}vy Walk}}?
+\newblock {\em Ecology}, 88(8):1962--1969.
 
 \bibitem[\protect\astroncite{Binder and
   Desai}{2011}]{binderNeurobiologySemanticMemory2011}
@@ -28,6 +57,59 @@ Caramazza, A. and Mahon, B.~Z. (2003).
   category-specific semantic deficits.
 \newblock {\em Trends in Cognitive Sciences}, 7(8):354--361.
 
+\bibitem[\protect\astroncite{Charnov}{1976}]{charnovOptimalForagingMarginal1976a}
+Charnov, E.~L. (1976).
+\newblock Optimal foraging the marginal value theorem.
+\newblock {\em Theoretical Population Biology}, 9(2):129--136.
+
+\bibitem[\protect\astroncite{de~Jager
+  et~al.}{2013}]{jagerHowSuperdiffusionGets2013}
+de~Jager, M., Bartumeus, F., Kolzsch, A., Weissing, F.~J., Hengeveld, G.~M.,
+  Nolet, B.~A., Herman, P. M.~J., and van~de Koppel, J. (2013).
+\newblock How superdiffusion gets arrested: Ecological encounters explain shift
+  from {{Levy}} to {{Brownian}} movement.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences},
+  281(1774):20132605--20132605.
+
+\bibitem[\protect\astroncite{Fawcett
+  et~al.}{2014}]{fawcettEvolutionDecisionRules2014}
+Fawcett, T.~W., Fallenstein, B., Higginson, A.~D., Houston, A.~I., Mallpress,
+  D. E.~W., Trimmer, P.~C., and McNamara, J.~M. (2014).
+\newblock The evolution of decision rules in complex environments.
+\newblock {\em Trends in Cognitive Sciences}, 18(3):153--161.
+
+\bibitem[\protect\astroncite{Fioriti
+  et~al.}{2015}]{fioritiLevyForagingDynamic2015}
+Fioriti, V., Fratichini, F., Chiesa, S., and Moriconi, C. (2015).
+\newblock Levy {{Foraging}} in a {{Dynamic Environment}} \textendash{}
+  {{Extending}} the {{Levy Search}}.
+\newblock {\em International Journal of Advanced Robotic Systems}, 12(7):98.
+
+\bibitem[\protect\astroncite{Gershman}{2018}]{gershmanDeconstructingHumanAlgorithms2018}
+Gershman, S.~J. (2018).
+\newblock Deconstructing the human algorithms for exploration.
+\newblock {\em Cognition}, 173:34--42.
+
+\bibitem[\protect\astroncite{Gigerenzer}{2008}]{gigerenzerWhyHeuristicsWork2008a}
+Gigerenzer, G. (2008).
+\newblock Why {{Heuristics Work}}.
+\newblock {\em Perspectives on Psychological Science}, 3(1):20--29.
+
+\bibitem[\protect\astroncite{{Hernandez-Leal}
+  et~al.}{2016}]{hernandez-lealExplorationStrategyNonstationary2016}
+{Hernandez-Leal}, P., Zhan, Y., Taylor, M.~E., Sucar, L.~E., and de~Cote, E.~M.
+  (2016).
+\newblock An exploration strategy for non-stationary opponents.
+\newblock {\em Autonomous Agents and Multi-Agent Systems}, 31(5):971--1002.
+
+\bibitem[\protect\astroncite{Higginson
+  et~al.}{2018}]{higginsonTrustYourGut2018}
+Higginson, A.~D., Fawcett, T.~W., Houston, A.~I., and McNamara, J.~M. (2018).
+\newblock Trust your gut: Using physiological states as a source of information
+  is almost as effective as optimal {{Bayesian}} learning.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences},
+  285(1871):20172411.
+
 \bibitem[\protect\astroncite{Hillis and
   Caramazza}{1991}]{hillisCATEGORYSPECIFICNAMINGCOMPREHENSION1991}
 Hillis, A.~E. and Caramazza, A. (1991).
@@ -41,6 +123,25 @@ Hills, T., Todd, P., and Jones, M. (2009).
 \newblock {\em Optimal {{Foraging}} in {{Semantic Memory}}}.
 \newblock {American Psychological Association (APA)}.
 
+\bibitem[\protect\astroncite{Hills
+  et~al.}{2012}]{hillsOptimalForagingSemantic2012a}
+Hills, T.~T., Jones, M.~N., and Todd, P.~M. (2012).
+\newblock Optimal foraging in semantic memory.
+\newblock {\em Psychological Review}, 119(2):431--440.
+
+\bibitem[\protect\astroncite{Humphries
+  et~al.}{2012}]{humphriesForagingSuccessBiological2012}
+Humphries, N.~E., Weimerskirch, H., Queiroz, N., Southall, E.~J., and Sims,
+  D.~W. (2012).
+\newblock Foraging success of biological {{Levy}} flights recorded in situ.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  109(19):7169--7174.
+
+\bibitem[\protect\astroncite{Krebs et~al.}{1978}]{krebsTestOptimalSampling1978}
+Krebs, J.~R., Kacelnik, A., and Taylor, P. (1978).
+\newblock Test of optimal sampling by foraging great tits.
+\newblock {\em Nature}, 275(5675):27--31.
+
 \bibitem[\protect\astroncite{Lund and
   Burgess}{1996}]{lundProducingHighdimensionalSemantic1996a}
 Lund, K. and Burgess, C. (1996).
@@ -49,6 +150,14 @@ Lund, K. and Burgess, C. (1996).
 \newblock {\em Behavior Research Methods Instruments, \& Computers},
   28(2):203--208.
 
+\bibitem[\protect\astroncite{Mehlhorn
+  et~al.}{2015}]{mehlhornUnpackingExplorationExploitation2015a}
+Mehlhorn, K., Newell, B.~R., Todd, P.~M., Lee, M.~D., Morgan, K., Braithwaite,
+  V.~A., Hausmann, D., Fiedler, K., and Gonzalez, C. (2015).
+\newblock Unpacking the exploration\textendash{}exploitation tradeoff: {{A}}
+  synthesis of human and animal literatures.
+\newblock {\em Decision}, 2(3):191--215.
+
 \bibitem[\protect\astroncite{Montez
   et~al.}{2015}]{montezRoleSemanticClustering2015}
 Montez, P., Thompson, G., and Kello, C.~T. (2015).
@@ -56,11 +165,38 @@ Montez, P., Thompson, G., and Kello, C.~T. (2015).
   Foraging}}.
 \newblock {\em Cognitive Science}, 39(8):1925--1939.
 
+\bibitem[\protect\astroncite{Parker and
+  Smith}{1990}]{parkerOptimalityTheoryEvolutionary1990}
+Parker, G.~A. and Smith, J.~M. (1990).
+\newblock Optimality theory in evolutionary biology.
+\newblock {\em Nature}, 348(6296):27--33.
+
+\bibitem[\protect\astroncite{Patrick
+  et~al.}{2017}]{patrickBoldnessPredictsIndividual2017}
+Patrick, S.~C., Pinaud, D., and Weimerskirch, H. (2017).
+\newblock Boldness predicts an individual\textbackslash{}textquotesingles
+  position along an exploration-exploitation foraging trade-off.
+\newblock {\em Journal of Animal Ecology}, 86(5):1257--1268.
+
+\bibitem[\protect\astroncite{Pierce and
+  Ollason}{1987}]{pierceEightReasonsWhy1987}
+Pierce, G.~J. and Ollason, J.~G. (1987).
+\newblock Eight {{Reasons Why Optimal Foraging Theory Is}} a {{Complete Waste}}
+  of {{Time}}.
+\newblock {\em Oikos}, 49(1):111.
+
 \bibitem[\protect\astroncite{Rhodes and
   Turvey}{2007}]{rhodesHumanMemoryRetrieval2007a}
 Rhodes, T. and Turvey, M.~T. (2007).
 \newblock Human memory retrieval as {{L{\'e}vy}} foraging.
 \newblock {\em Physica A: Statistical Mechanics and its Applications},
   385(1):255--260.
+
+\bibitem[\protect\astroncite{Wosniack
+  et~al.}{2017}]{wosniackEvolutionaryOriginsLevy2017}
+Wosniack, M.~E., Santos, M.~C., Raposo, E.~P., Viswanathan, G.~M., and da~Luz,
+  M. G.~E. (2017).
+\newblock The evolutionary origins of {{L{\'e}vy}} walk foraging.
+\newblock {\em PLOS Computational Biology}, 13(10):e1005774.
 
 \end{thebibliography}

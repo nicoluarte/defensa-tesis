@@ -3,44 +3,51 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Underlying_Strategies_of_Semantic_Search.aux
 The style file: apa.bst
 Database file #1: references.bib
-You've used 9 entries,
+Repeated entry---line 527 of file references.bib
+ : @article{benhamouHOWMANYANIMALS2007
+ :                                    ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in 171111125Predicting
+Warning--empty year in 171111125Predicting
+You've used 30 entries,
             1940 wiz_defined-function locations,
-            545 strings with 5934 characters,
-and the built_in function-call counts, 3882 in all, are:
-= -- 383
-> -- 157
-< -- 5
-+ -- 58
-- -- 52
-* -- 375
-:= -- 662
-add.period$ -- 27
-call.type$ -- 9
-change.case$ -- 70
-chr.to.int$ -- 9
-cite$ -- 9
-duplicate$ -- 126
-empty$ -- 270
-format.name$ -- 71
-if$ -- 739
+            699 strings with 10901 characters,
+and the built_in function-call counts, 12981 in all, are:
+= -- 1264
+> -- 562
+< -- 13
++ -- 204
+- -- 192
+* -- 1273
+:= -- 2228
+add.period$ -- 89
+call.type$ -- 30
+change.case$ -- 245
+chr.to.int$ -- 30
+cite$ -- 33
+duplicate$ -- 416
+empty$ -- 888
+format.name$ -- 237
+if$ -- 2461
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 48
-num.names$ -- 27
-pop$ -- 53
+missing$ -- 30
+newline$ -- 152
+num.names$ -- 87
+pop$ -- 181
 preamble$ -- 1
-purify$ -- 71
+purify$ -- 246
 quote$ -- 0
-skip$ -- 95
+skip$ -- 309
 stack$ -- 0
-substring$ -- 332
-swap$ -- 18
+substring$ -- 1074
+swap$ -- 59
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
-warning$ -- 0
-while$ -- 34
+type$ -- 178
+warning$ -- 2
+while$ -- 109
 width$ -- 0
-write$ -- 118
+write$ -- 387
+(There was 1 error message)

@@ -1,4 +1,4 @@
-% Created 2020-01-24 vie 17:40
+% Created 2020-03-06 vie 07:57
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -33,13 +33,13 @@
 
 
 \section{Agradecimientos}
-\label{sec:orgc9a122a}
+\label{sec:org4af23e6}
 
 Agradezco a CONICYT Proyecto Fondecyt Regular N°1170292 por la financiación de esta investigación.
 
 \newpage
 \section{Resumen}
-\label{sec:org9b45df7}
+\label{sec:orge11aae0}
 
 Decisions are part of our daily lives, and it appears as if some kind of process
 is evaluating second to second all of our options. In all of such situations a
@@ -59,33 +59,26 @@ in hopes of providing an evolutionary framework for semantic search research.
 
 \newpage
 \section{Tabla de contenido}
-\label{sec:orgf51ec8b}
+\label{sec:org352f73b}
 \setcounter{tocdepth}{2}
 \tableofcontents
 \newpage
 \section{Índices de ilustraciones}
-\label{sec:orgb7e0a54}
+\label{sec:org2c35dc2}
 
 \newpage
 \section{Introduction}
-\label{sec:orga78922a}
+\label{sec:org001eca2}
 \subsection{Semantic search}
-\label{sec:org5a7db3e}
-\subsubsection{What it is}
-\label{sec:org2341ec4}
-\subsubsection{Empirical evidence}
-\label{sec:orgc235d9e}
-\subsubsection{Observed patterns}
-\label{sec:org2ee09c3}
-\subsubsection{Justfication of 'space' or 'effort'}
-\label{sec:orge7a6878}
+\label{sec:org3baebef}
+
 Semantic memories are memories about the meaning of things, this conceptual
 knowlegde allows us to interact and recognize objects, plan the future and
 remember the past \citep{binderNeurobiologySemanticMemory2011}. Given such pivotal
-role, the way that we 'navigate' through such memories will determine the way we
+role, the way that we 'navigate' through such memories will determine how we
 interact with the world. The space in which the 'navigation' occurs has been
-called semantic space, which corresponds to an abstraction where semantic
-memories are placed in a multi-dimensional space and the conection between them
+called semantic space, this corresponds to an abstraction where semantic
+memories are placed in a multi-dimensional space, and the conection between them
 are defined by some vector assigning the relationship between each one in every
 dimension \citep{lundProducingHighdimensionalSemantic1996a}. In humans, however,
 that way that semantic memories organize into such space is not clear
@@ -95,89 +88,217 @@ Free recall tasks, which prompt the participant to recall as many objects
 pertaining to a certain category in a limited amount of time, have observed a
 'patchy' distribution of such memories \citep{hillsOptimalForagingSemantic2009},
 this patchy distribution refers to a signicantly faster retrieval time when the
-participant are within a certain category (which is determined beforehand), more
-than when they're not. The idea of a semantic space, with distances between contents, was
-first developed by supervised semantic network modeling based on lexical
+participant is within a certain category (which is determined beforehand), more
+than when they're not. The idea of a semantic space, with distances between
+semantic contents, was first developed by supervised semantic network modeling based on lexical
 co-ocurrence \citep{lundProducingHighdimensionalSemantic1996a}, which found
-correlations between the distances calculated by this model and human reaction
-times.
+correlations between the distances calculated by the model and human retrieval
+times, giving the possibility to model human memory in such a way.
 
 The specific way this 'distance' exists in the brain is not known, however,
-earlier studies lesion studies showed that specific neurological damage affect
+earlier lesion studies showed that specific neurological damage affect
 specific semantic categories
-\citep{hillisCATEGORYSPECIFICNAMINGCOMPREHENSION1991}, tempting that this
+\citep{hillisCATEGORYSPECIFICNAMINGCOMPREHENSION1991}, pointing that this
 categories have some physical distance between them. Functional neuroimaging
 data points in a similar direction, but is not clear wether the structure
 represents actual semantic categories or some modality-specifc sub-divisions
-\citep{caramazzaOrganizationConceptualKnowledge2003,binderWhereSemanticSystem2009}  
+\citep{caramazzaOrganizationConceptualKnowledge2003,binderWhereSemanticSystem2009}.
+Network science studies have indicated that, within category elements, present
+lower average shortest path length, higher clustering coefficient and lower
+network modularity, implying that semantic contents are distributed in dense
+clusters pertaining to each category, and that access to items within a category
+have efficient access between them compared to another category
+\citep{benedekHowSemanticMemory2017}.
 
+Given a semantic space with a clustered-patchy distribution, the question of how
+to efficiently retrieve such contents arises. Free recall tasks points that
+,inter-retrieval intervals (IRI), when participants are producing items within a given
+category are signicantly shorter that when they are not
+\citep{abbottRandomWalksSemantic2015a}. IRI on this type of task have shown to be
+following a Lévy probability density distribution with an exponent near 2 when
+the retrievals are more efficient \citep{rhodesHumanMemoryRetrieval2007a}.
 
-pattern describing such inter-response intervals have been compared to that of
+Patterns describing such inter-retrieval intervals have been compared to that of
 food-foraging \citep{rhodesHumanMemoryRetrieval2007a}, this suggest a notion of
 distance between memory contents that has been observed when participants are
 asked to represent in a 2D space such memories
-\citep{montezRoleSemanticClustering2015} 
-
-
-
-
-
-
-
-
-
-\subsection{Sequential decision making}
-\label{sec:org4176170}
-\subsubsection{What is the 'problem' present in semantic search (specific to retrieval tasks)}
-\label{sec:org653b483}
-\subsubsection{Brief intro to sequential decision making an its issue (da paso a exploration-exploitation)}
-\label{sec:orgdfa4cbe}
+\citep{montezRoleSemanticClustering2015}.
 \subsection{The exploration-exploitation dilemma in foraging and semantic search}
-\label{sec:orge32b91d}
-\subsubsection{Presentar el dilemma}
-\label{sec:org86c6828}
-\subsubsection{Connect both through evidence}
-\label{sec:org3f5defb}
-\subsubsection{Connect both through logic}
-\label{sec:orge589a7b}
+\label{sec:orga98a787}
+
+Human semantic memory have been represented by relatively simple networks, where
+semantic contents are de 'nodes' and the proximity metric (categorical or
+associative similarity) is represented in the edges of this network. Such models
+and empirical evidence in human recall tasks
+\citep{hillsOptimalForagingSemantic2012a}, show that search within closely related
+contents (or withing a category) are retrieved faster that when such items are
+outside such category. However, the number of contents for each category are
+finite, so certain strategy must be employed in order to guide the exploration
+of this contents. Given this finite condition, a sequential decision making
+problem is at face, at every step the decision to stay within a category or to
+change to another (possibly more profitable category) must be made, and such
+decision will impact further decisions. This could be stated as a non-stationary
+environment, where the expected reward for each category is being constantly
+updated to an unknown value, and in order to determine such value the agent must
+explore it's options. However, in order to profit, at some point in time, it
+also must exploit a category in order to maximize it's reward. This is known as
+the exploration-exploitation dillema.
+
+This dilemma observes the question of wether the agent should extract resources
+(retrieve a semantic content) from the current patch in which the value is known
+(i.e. exploitation) or wether it should explore other patches to gain
+information about their value. One can assume that the organism should pick the
+patch/category with the highest recent value, but this could lead to selecting a
+sub-optimal patch or category if better options exists, or if its calculated
+value is simply subject to many high degrees of noise
+\citep{hernandez-lealExplorationStrategyNonstationary2016}.
+
+To solve the exploration/exploitation dilemma several algorithms and notions,
+such as expected and unexpected uncertainty have been proposed
+\citep{mehlhornUnpackingExplorationExploitation2015a}, where a sensible threshold
+is given to the agent to control expectations of rewards, such that exploitation
+of a given patch is not stopped by a single low reward in face of multiple high
+rewards. These algorithms try to solve the many problems that arise when trying
+to act within this dilemma. Deciding is not easy because, while in a
+non-depleting patch, the patch exploitation would always be the optimal
+decision, the problem turns more complicated when exploitation depresses current
+resources, and the value of all patches is not known. Which in turn, adds that
+the organism must somehow determine an optimal policy for exploring and
+exploiting. Early experiments on birds showed a 50:50 sample algorithm, where
+the bird sampled equally two patches and for the rest of the time stayed in the
+better one \citep{krebsTestOptimalSampling1978}. More recent work has established
+the notion of simple heuristic-like rules such as energy reserves to decide how
+intensively forage for food \citep{higginsonTrustYourGut2018}. Furthermore it has
+been pointed that humans use different algorithms depending on the situation,
+this has been shown using stationary sequential tasks
+\citep{gershmanDeconstructingHumanAlgorithms2018}. These findings suggest that the
+exploration-exploitation dilemma is likely to be solved by using the properties
+of the environment the organism is in
+\citep{fawcettEvolutionDecisionRules2014,hernandez-lealExplorationStrategyNonstationary2016}.
+
+Up to this point semantic search has been introduced as a type of search through
+a cognitive space, which is ruled by the exploration-exploitation dilemma.
+Furthermore, the type of space in which this ocurrs was compared to that of
+physical foraging \citep{hillsOptimalForagingSemantic2009} because of the patchy
+distribution of 'resources' found in both cases.
+
 \newpage
-\section{Models for a Heuristic}
-\label{sec:org1af2711}
-\subsubsection{Define heuristics clearly}
-\label{sec:org49ee9eb}
-\subsubsection{Put the question of what is the underlying heuristic}
-\label{sec:org022977a}
-\subsubsection{Argue how a model could represent a heuristic}
-\label{sec:org0150a6d}
-\subsubsection{Rule-based}
-\label{sec:org0cc6752}
-\subsubsection{Random walks}
-\label{sec:orgbe9bd84}
+\section{Models for a semantic search heuristic}
+\label{sec:org9dc2b1a}
+
+The problem stated, asks for a way that is cognitively plausible, for conducting
+semantic searches. Such a way could be provided by the use of certain primitive
+heuristics. A heuristic is a way to handle information, that ignores part of it,
+is relatively fast in getting to a decision, and gets a 'good-enough solution'
+that is often the best in many scenarios where the optimal one is intractable
+\citep{gigerenzerWhyHeuristicsWork2008a}. To provide a candidate heuristic is
+necessary to submit computational models that allows to finely define such
+heuristic and make testeable predictions \citep{gigerenzerWhyHeuristicsWork2008a}.
+To define the underlying heuristics of semantic search two main models will be
+presented one 'rule based' and other of stochastic nature. Secondly, an
+heuristic most be supported by some specific structure capable of producing the
+behavior predicted by the heuristic, for that neural implementations of such
+strategies will be discussed. 
+
+\subsection{Rule-based behavior: optimal foraging}
+\label{sec:org1b2d586}
+
+A prime exponent of rule-based strategies is the optimal foraging theory (OFT).
+The OFT is one of the most well-known theories in the area of foraging behavior
+since it provides a model that assumes both an optimal forager and a patchy
+environment \citep{bartumeusOptimalSearchBehavior2009a}. Within OFT, the forager
+is constantly updating the value (resource acquisition rate) of staying in a
+patch versus leaving it for another one, since it is naturally assumed that as
+permanence time increases, the resources of the current patch depresses. Given
+that a forager uses energy to get to another patch, and also wants to optimize
+the ratio between energy expenditure and caloric gain, it must establish a rule
+for doing so in an efficient way. This rule is given by the marginal value
+theorem (MVT). MVT dictates that an optimal forager should leave its current
+patch when the acquisition rate drops below that of the habitat average
+\citep{charnovOptimalForagingMarginal1976a}.
+
+OFT provides a policy for decision making during food foraging. The first part
+of such policy deals with the problem of how much time should the forager stay
+in a given patch, so as not to miss the opportunity of potentially better
+patches and, at the same time, effectively attain the resources of the current
+one. The second part is to determine the optimal movement pattern or path the
+forager should take when traveling from patch to patch. OFT largely avoided this
+issue (i.e. how to travel from patch to patch) assuming previous knowledge of
+habitat resource distribution. However, this probably is not the case for most
+organisms.
+
+
+Cognitive, perceptive or habitat dependent limitations make such previous
+knowledge difficult \citep{bartumeusOptimalSearchBehavior2009a}. Thus, the way
+that an organism adjusts its search behavior is of utmost importance. Random
+walks have been extensively used to evolutionary describe such patterns
+\citep{bartumeusOptimalSearchBehavior2009a,fioritiLevyForagingDynamic2015,humphriesForagingSuccessBiological2012,jagerHowSuperdiffusionGets2013}.
+Evolutionary arguments for certain types of random walks such as the Levy walk
+\citep{wosniackEvolutionaryOriginsLevy2017} assume that evolution optimizes the
+most efficient search strategies. However, this view has been criticized
+\citep{pierceEightReasonsWhy1987}, mainly because is impossible to prove that a
+given behavior was selected for a specific function, and as such test for
+optimality proves to be extremely difficult. Furthermore, it has been noted that
+theoretical driven predictions do not necessarily match the data
+\citep{pierceEightReasonsWhy1987}. However, in contrast to these criticisms the
+point of optimal models for its heuristic value is proposed
+\citep{parkerOptimalityTheoryEvolutionary1990}.
+
+\subsection{Random walks}
+\label{sec:orge042878}
+
+A random walk movement model is, basically, a stochastic process that defines
+two elements: (1) the step length, which is drawn from a certain probability
+distribution and, (2) a turning angle or direction change which is also drawn
+from a particular distribution. In the Levy-walks, turning angles are drawn from
+a uniform distribution and the step lengths from a Levy-stable distribution
+\citep{bartumeusLEVYPROCESSESANIMAL2007a}. Modeling search patterns using this
+kind of random walk can be viewed as neglecting the fact of memory, especially
+in organisms with higher cognitive abilities, mainly because there’s is no
+parameter that captures the fact that, through memory, an organism can recall
+previously visited placed or patches with high amount resources and so on.
+However, the scale of the search deserves special attention. As an organism
+might gain significant knowledge from a restricted area but not from all his
+habitat, and even in the case of substantial habitat knowledge, the interaction
+of other organisms with the environment may spoil prediction from that previous
+knowledge, forcing the need to constantly gather information
+\citep{patrickBoldnessPredictsIndividual2017}. Hence, having an efficient random
+process for the search pattern might be useful even when higher cognitive
+capabilities are provided \citep{bartumeusLEVYPROCESSESANIMAL2007a}. Aside from
+considering cognitive capabilities, an important point is to determine whether
+such modeled patterns do have an internal process that generates them,
+otherwise, such pattern would not provide much information of the organism´s
+behavior, and would appear more as a coincidence. For instance, it has been
+discussed whether Levy-walks can appear as a result of resources properties,
+that is, when the organism previously knows a resource location, but the value
+of this resource obeys a power-law distribution, rather than from an underlying
+Levy-process within the organism \citep{benhamouHOWMANYANIMALS2007}.
+
 \newpage
 \section{A case of co-option}
-\label{sec:org5f1d09f}
+\label{sec:org47ad16e}
 \subsubsection{Introduce the concept of co-option, emphasis on behavioral or search traits}
-\label{sec:orgc83a8ae}
+\label{sec:org9d51dc7}
 \subsubsection{From where semantic search is co-opted from ? introduce foraging}
-\label{sec:orgcf84bac}
+\label{sec:orge78dc8c}
 \subsubsection{How this came to be}
-\label{sec:org422bbe4}
+\label{sec:org9a89bb2}
 \newpage
 \section{Neural implementations}
-\label{sec:orgb5e48ca}
+\label{sec:orgb71928e}
 \subsubsection{Once a strategy/heuristic is identified, it is necesary to identify the structure underlying it}
-\label{sec:org048f73b}
+\label{sec:org573194f}
 \subsubsection{Base on exploration exploitation dilemma}
-\label{sec:org3c2378c}
+\label{sec:org578b7b1}
 \newpage
 \section{State dependent foraging}
-\label{sec:org51bf4dd}
+\label{sec:org8b9c31a}
 \newpage
 \section{Conclusions}
-\label{sec:org3bbea26}
+\label{sec:org0fab3aa}
 \newpage
 \section{References}
-\label{sec:orgedbba44}
+\label{sec:orgc8af6e9}
 
 \bibliographystyle{apa}
 \bibliography{references}

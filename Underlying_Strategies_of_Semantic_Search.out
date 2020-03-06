@@ -1,14 +1,15 @@
 \BOOKMARK [1][-]{section.1}{Agradecimientos}{}% 1
 \BOOKMARK [1][-]{section.2}{Resumen}{}% 2
-\BOOKMARK [1][-]{section.3}{Tabla de contenido}{}% 3
-\BOOKMARK [1][-]{section.4}{\315ndices de ilustraciones}{}% 4
+\BOOKMARK [1][-]{section.3}{Tabla\040de\040contenido}{}% 3
+\BOOKMARK [1][-]{section.4}{Índices de ilustraciones}{}% 4
 \BOOKMARK [1][-]{section.5}{Introduction}{}% 5
-\BOOKMARK [2][-]{subsection.5.1}{Semantic search}{section.5}% 6
-\BOOKMARK [2][-]{subsection.5.2}{Sequential decision making}{section.5}% 7
-\BOOKMARK [2][-]{subsection.5.3}{The exploration-exploitation dilemma in foraging and semantic search}{section.5}% 8
-\BOOKMARK [1][-]{section.6}{Models for a Heuristic}{}% 9
-\BOOKMARK [1][-]{section.7}{A case of co-option}{}% 10
-\BOOKMARK [1][-]{section.8}{Neural implementations}{}% 11
-\BOOKMARK [1][-]{section.9}{State dependent foraging}{}% 12
-\BOOKMARK [1][-]{section.10}{Conclusions}{}% 13
-\BOOKMARK [1][-]{section.11}{References}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{Semantic\040search}{section.5}% 6
+\BOOKMARK [2][-]{subsection.5.2}{The\040exploration-exploitation\040dilemma\040in\040foraging\040and\040semantic\040search}{section.5}% 7
+\BOOKMARK [1][-]{section.6}{Models\040for\040a\040semantic\040search\040heuristic}{}% 8
+\BOOKMARK [2][-]{subsection.6.1}{Rule-based\040behavior:\040optimal\040foraging}{section.6}% 9
+\BOOKMARK [2][-]{subsection.6.2}{Random\040walks}{section.6}% 10
+\BOOKMARK [1][-]{section.7}{A\040case\040of\040co-option}{}% 11
+\BOOKMARK [1][-]{section.8}{Neural\040implementations}{}% 12
+\BOOKMARK [1][-]{section.9}{State\040dependent\040foraging}{}% 13
+\BOOKMARK [1][-]{section.10}{Conclusions}{}% 14
+\BOOKMARK [1][-]{section.11}{References}{}% 15
